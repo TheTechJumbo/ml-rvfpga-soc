@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "ml-rvfpga-soc",
+			"path": "../../../../examples/LedsSwitches_C-Lang/ml-rvfpga-soc"
+		},
+		{
+			"name": "Labs",
+			"path": "../../.."
+		}
+	],
+	"settings": {}
+}
