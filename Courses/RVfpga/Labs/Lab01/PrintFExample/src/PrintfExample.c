@@ -7,7 +7,7 @@
 #endif
 #include <psp_api.h>
 
-#define DELAY 10000
+#define DELAY 10000000
 
 int main(void)
 {  
