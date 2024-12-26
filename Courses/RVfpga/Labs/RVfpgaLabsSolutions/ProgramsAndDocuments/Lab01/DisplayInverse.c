@@ -18,7 +18,7 @@ int main ( void )
   while (1) { 
     switches_value = READ_GPIO(GPIO_SWs);   // read value on switches
     switches_value = switches_value >> 16;  // shift into lower 16 bits
-	switches_value = switches_value ^ 0xFFFF;
+	  switches_value = switches_value ^ 0xFFFF;
     WRITE_GPIO(GPIO_LEDs, switches_value);  // display inverse of switch value on LEDs
   }
 
