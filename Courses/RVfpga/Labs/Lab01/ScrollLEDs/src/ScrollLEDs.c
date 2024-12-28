@@ -7,7 +7,7 @@
 #define GPIO_LEDs   0x80001404
 #define GPIO_INOUT  0x80001408
 
-#define DELAY 0x300000               /* Define the DELAY */
+#define DELAY 0x200000               /* Define the DELAY */
 
 #define READ_GPIO(dir) (*(volatile unsigned *)dir)
 #define WRITE_GPIO(dir, value) { (*(volatile unsigned *)dir) = (value); }
@@ -20,17 +20,17 @@ int main ( void )
   WRITE_GPIO(GPIO_INOUT, En_Value);
 
   val = 1;
-  while (1) {
+  while (1) { //hard coded infinite loop
       // scroll bit(s) left	  
 	  do {
       WRITE_GPIO(GPIO_LEDs, val);  // display val on LEDs
       // delay
-	    cnt = DELAY;
-	    i = 0;
-	    while (i < cnt)
-        i++;
-	    val = val << 1;	  
-	  } while (val < 65536); 
+	    cnt = DELAY; //def cnt to be DELAY
+	    i = 0; //def i to be 0
+	    while (i < cnt) //while i is less than cnt
+        i++; //increment i
+	    val = val << 1; //shift val left
+	  } while (val < 65536); //shift left until val reaches left edge
 
       // scroll bit(s) right	  
  	  do {
@@ -40,7 +40,7 @@ int main ( void )
 	    i = 0;
 	    while (i < cnt)
         i++;
-	    val = val >> 1;	  
+	    val = val >> 1; //shift val right
 	} while ( (val & 1) == 0 );      // shift right until val reaches right edge 
 
     // Add another bit or reset to val = 1 if all LEDs lit. 
