@@ -7,7 +7,7 @@
 #define GPIO_LEDs   0x80001404
 #define GPIO_INOUT  0x80001408
 
-#define DELAY 0x200000               /* Define the DELAY */
+#define DELAY 0x300000               /* Define the DELAY */
 
 #define READ_GPIO(dir) (*(volatile unsigned *)dir)
 #define WRITE_GPIO(dir, value) { (*(volatile unsigned *)dir) = (value); }

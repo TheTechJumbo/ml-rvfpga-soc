@@ -19,13 +19,13 @@ repeat:
     srli t1, t1, 16 # write to LEDs
     sw t1, 4(t0) # write value to LEDs: GPIO_LEDs = t1
     # create some sort of delay
-    li t3, 3000000 # delay
+    li t3, 20000000 # delay
     delay:
         addi t3, t3, -1
         bnez t3, delay
     not t1, t1 # invert value
     sw t1, 4(t0) # write value to LEDs: GPIO_LEDs = t1
-    li t4, 3000000 # delay
+    li t4, 4000000 # delay
     delay_second:
         addi t4, t4, -1
         bnez t4, delay_second
