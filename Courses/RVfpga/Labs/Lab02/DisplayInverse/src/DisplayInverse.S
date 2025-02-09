@@ -17,6 +17,6 @@ main:
 repeat:
     lw   t1, 0(t0)    # read switches: t1 = GPIO_SWs
     srli t1, t1, 16   # write to LEDs
-    # not t1, t1        # invert the value - only change from ReadSwitches.S
+    not t1, t1        # invert the value - only change from ReadSwitches.S
     sw   t1, 4(t0)    # write value to LEDs: GPIO_LEDs = t1
     j    repeat       # loop forever

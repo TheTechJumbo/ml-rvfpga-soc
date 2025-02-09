@@ -1,3 +1,7 @@
+//libraries
+#include <math.h>
+#include <stdlib.h>
+#include <stdio.h>
 // memory-mapped I/O addresses
 #define GPIO_SWs    0x80001400
 #define GPIO_LEDs   0x80001404

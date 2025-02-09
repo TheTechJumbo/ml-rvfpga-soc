@@ -7,15 +7,15 @@
 #define GPIO_LEDs   0x80001404
 #define GPIO_INOUT  0x80001408
 
-#define DELAY 0x300000               /* Define the DELAY */
+#define DELAY 0x300000 /* Define the DELAY */ 
 
-#define READ_GPIO(dir) (*(volatile unsigned *)dir)
-#define WRITE_GPIO(dir, value) { (*(volatile unsigned *)dir) = (value); }
+#define READ_GPIO(dir) (*(volatile unsigned *)dir) //define read addresses
+#define WRITE_GPIO(dir, value) { (*(volatile unsigned *)dir) = (value); } //define write addresses
 
 int main ( void )
 {
-  unsigned En_Value=0xFFFF;
-  unsigned val, i, cnt;
+  unsigned En_Value=0xFFFF; //0x is the hex prefix identifier. 0xFFFF == 0b1111
+  unsigned val, i, cnt; //initialisation of placeholder value, recurrent accumulator and tracker variable
 
   WRITE_GPIO(GPIO_INOUT, En_Value);
 
@@ -41,7 +41,7 @@ int main ( void )
 	    while (i < cnt)
         i++;
 	    val = val >> 1; //shift val right
-	} while ( (val & 1) == 0 );      // shift right until val reaches right edge 
+	} while ( (val & 1) == 0 );      // shift right until val reaches right edge
 
     // Add another bit or reset to val = 1 if all LEDs lit. 
     if (val == 65535)    // 2^16 - 1 = 65535 (value when all bits lit)

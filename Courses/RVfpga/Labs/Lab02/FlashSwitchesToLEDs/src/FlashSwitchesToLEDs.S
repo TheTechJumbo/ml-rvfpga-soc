@@ -9,7 +9,7 @@ main:
 
 main:
     li t0, 0x80001400 # base address of GPIO memory-mapped registers
-    li t1, 0xFFFF # set directiom of GPIO_SWs
+    li t1, 0xFFFF # set direction of GPIO_SWs
     # upper half = switches (inputs)
     # lower half = LEDs (outputs)
     sw t1, 8(t0) # GPIO_INOUT = 0xFFFF
