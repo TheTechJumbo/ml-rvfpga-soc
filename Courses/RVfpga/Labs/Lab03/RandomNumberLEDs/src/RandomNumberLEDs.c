@@ -4,7 +4,7 @@
 #define GPIO_SWs    0x80001400
 #define GPIO_LEDs   0x80001404
 #define GPIO_INOUT  0x80001408
-#define DELAY       0x1000000  // Define the DELAY
+#define DELAY       0x100000  // Define the DELAY
 
 #define READ_GPIO(dir) (*(volatile unsigned *)dir)
 #define WRITE_GPIO(dir, value) { (*(volatile unsigned *)dir) = (value); }
@@ -20,7 +20,7 @@ int main(void)
 
   IOsetup();
   while (1) { 
-    val = rand() % 65536;
+    val = rand() % 65536; //2^16 = 65536
     writeValtoLEDs(val);
     for (i = 0; i < DELAY; i++)
       ;
