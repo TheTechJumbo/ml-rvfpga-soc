@@ -14,9 +14,43 @@
 %\usepackage{txfonts}
 \usepackage{mathptmx}
 
-\begin{document}
+% \usepackage[margin=1.2in]{geometry}
+\usepackage[toc,page]{appendix}
+\usepackage{graphicx}
+%\usepackage{natbib}
+\usepackage{lipsum}
+\usepackage{caption}
+\usepackage[numbers]{natbib}
 
-\pagenumbering{Roman}
+%\documentclass[12pt,a4paper]{report}
+
+%\usepackage[lmargin=0.5cm,tmargin=0cm,rmargin=1cm,bmargin=0cm]{geometry}
+\begin{document}
+\setcounter{tocdepth}{0} 
+\renewcommand\labelitemi{---}
+
+%\frontmatter
+
+\begin{titlepage}
+\begin{center}
+{\LARGE University of Sheffield}\\[1.5cm]
+\linespread{1.2}\Large {\bfseries EEE381}\\[2cm]
+\linespread{1}
+\includegraphics[width=9cm]{images/logo.png}\\[1.5cm]
+
+\linespread{1.2}\Large {\bfseries Individual Investigative Project}\\[1cm]
+{\Large Mohammed Ayman Shaikh}\\[1cm]
+\large A report submitted in fulfillment of the module\\EEE381 Individual Investigative Project\\[0.3cm] 
+\textit{in the}\\[0.3cm]
+School of Electronic and Electrical Engineering\\[2cm]
+\today
+\end{center}
+
+\end{titlepage}
+
+
+\linespread{1.5}
+\pagenumbering{arabic}
 
 \section*{ABSTRACT}
 
