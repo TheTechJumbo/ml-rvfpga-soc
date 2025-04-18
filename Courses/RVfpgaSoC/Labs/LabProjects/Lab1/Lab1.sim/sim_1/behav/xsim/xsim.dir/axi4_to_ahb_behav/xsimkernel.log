@@ -1,0 +1,4 @@
+Running: xsim.dir/axi4_to_ahb_behav/xsimk -simmode gui -wdb axi4_to_ahb_behav.wdb -simrunnum 0 -socket 51911
+Design successfully loaded
+Design Loading Memory Usage: 180636 KB (Peak: 180636 KB)
+Design Loading CPU Usage: 1220 ms
