@@ -1,10 +1,10 @@
 -- Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
--- Tool Version: Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
--- Date        : Mon May 31 23:30:42 2021
--- Host        : LenovoHamza running 64-bit major release  (build 9200)
+-- Tool Version: Vivado v.2019.2 (lin64) Build 2708876 Wed Nov  6 21:39:14 MST 2019
+-- Date        : Sun Apr 20 16:07:30 2025
+-- Host        : ayman-t480 running 64-bit Ubuntu 24.10
 -- Command     : write_vhdl -force -mode synth_stub
---               e:/RvfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/bd/BD/ip/BD_bidirec_3_1/BD_bidirec_3_1_stub.vhdl
+--               /home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/bd/BD/ip/BD_bidirec_3_1/BD_bidirec_3_1_stub.vhdl
 -- Design      : BD_bidirec_3_1
 -- Purpose     : Stub declaration of top-level module interface
 -- Device      : xc7a100tcsg324-1

@@ -1,0 +1,8 @@
+veerwolf_nexys_a7: lsu__GB1, dec__GB0, veerwolf_nexys_a7__GC0, veerwolf_core__GC0, veer__GCB0, mem, litedram_core__GC0, dec__GB1, litedram_top__GC0, lsu__GB0, exu, 
+veerwolf_core: veerwolf_core__GC0, mem, veer__GCB0, dec__GB1, dec__GB0, lsu__GB1, lsu__GB0, exu, 
+veer_wrapper_dmi: mem, veer__GCB0, dec__GB1, dec__GB0, lsu__GB1, lsu__GB0, exu, 
+veer: veer__GCB0, dec__GB1, dec__GB0, lsu__GB1, lsu__GB0, exu, 
+dec: dec__GB1, dec__GB0, 
+lsu: lsu__GB1, lsu__GB0, 
+litedram_top: litedram_top__GC0, litedram_core__GC0, 
+litedram_core: litedram_core__GC0, 

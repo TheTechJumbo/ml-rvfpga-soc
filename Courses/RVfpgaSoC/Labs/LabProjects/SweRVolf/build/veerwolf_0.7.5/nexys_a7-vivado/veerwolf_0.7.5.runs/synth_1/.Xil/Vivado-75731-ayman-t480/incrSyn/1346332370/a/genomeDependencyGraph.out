@@ -1,0 +1,63 @@
+GENOME NON_GENOME PIN 10: GENOME NON_GENOME PIN 4
+GENOME NON_GENOME PIN 4: GENOME NON_GENOME PIN 10
+INST veerwolf_nexys_a7__GC0 PIN 341: INST veerwolf_core__GC0 PIN 236 TYPE 5
+INST veerwolf_nexys_a7__GC0 PIN 342: INST veerwolf_core__GC0 PIN 237 TYPE 5
+INST veerwolf_nexys_a7__GC0 PIN 343: INST veerwolf_core__GC0 PIN 238 TYPE 5
+INST veerwolf_nexys_a7__GC0 PIN 344: INST veerwolf_core__GC0 PIN 239 TYPE 5
+INST veerwolf_nexys_a7__GC0 PIN 345: INST veerwolf_core__GC0 PIN 240 TYPE 5
+INST veerwolf_nexys_a7__GC0 PIN 386: INST veerwolf_core__GC0 PIN 281 TYPE 5
+INST veerwolf_nexys_a7__GC0 PIN 387: INST veerwolf_core__GC0 PIN 282 TYPE 5
+INST veerwolf_nexys_a7__GC0 PIN 388: INST veerwolf_core__GC0 PIN 283 TYPE 5
+INST veerwolf_nexys_a7__GC0 PIN 389: INST veerwolf_core__GC0 PIN 284 TYPE 5
+INST veerwolf_nexys_a7__GC0 PIN 390: INST veerwolf_core__GC0 PIN 285 TYPE 5
+INST veerwolf_nexys_a7__GC0 PIN 391: INST veerwolf_core__GC0 PIN 286 TYPE 5
+INST veerwolf_nexys_a7__GC0 PIN 392: INST veerwolf_core__GC0 PIN 287 TYPE 5
+INST veerwolf_nexys_a7__GC0 PIN 393: INST veerwolf_core__GC0 PIN 288 TYPE 5
+INST veerwolf_nexys_a7__GC0 PIN 394: INST veerwolf_core__GC0 PIN 293 TYPE 5
+INST veerwolf_nexys_a7__GC0 PIN 395: INST veerwolf_core__GC0 PIN 294 TYPE 5
+INST veerwolf_nexys_a7__GC0 PIN 396: INST veerwolf_core__GC0 PIN 295 TYPE 5
+INST veerwolf_nexys_a7__GC0 PIN 397: INST veerwolf_core__GC0 PIN 296 TYPE 5
+INST veerwolf_nexys_a7__GC0 PIN 398: INST veerwolf_core__GC0 PIN 289 TYPE 5
+INST veerwolf_nexys_a7__GC0 PIN 399: INST veerwolf_core__GC0 PIN 290 TYPE 5
+INST veerwolf_nexys_a7__GC0 PIN 400: INST veerwolf_core__GC0 PIN 291 TYPE 5
+INST veerwolf_nexys_a7__GC0 PIN 401: INST veerwolf_core__GC0 PIN 292 TYPE 5
+INST veerwolf_nexys_a7__GC0 PIN 484: INST veerwolf_core__GC0 PIN 304 TYPE 5
+INST veerwolf_nexys_a7__GC0 PIN 485: INST veerwolf_core__GC0 PIN 305 TYPE 5
+INST veerwolf_nexys_a7__GC0 PIN 486: INST veerwolf_core__GC0 PIN 306 TYPE 5
+INST veerwolf_nexys_a7__GC0 PIN 487: INST veerwolf_core__GC0 PIN 307 TYPE 5
+INST veerwolf_nexys_a7__GC0 PIN 488: INST veerwolf_core__GC0 PIN 308 TYPE 5
+INST veerwolf_nexys_a7__GC0 PIN 529: INST veerwolf_core__GC0 PIN 349 TYPE 5
+INST veerwolf_nexys_a7__GC0 PIN 530: INST veerwolf_core__GC0 PIN 350 TYPE 5
+INST veerwolf_nexys_a7__GC0 PIN 531: INST veerwolf_core__GC0 PIN 351 TYPE 5
+INST veerwolf_nexys_a7__GC0 PIN 532: INST veerwolf_core__GC0 PIN 352 TYPE 5
+INST veerwolf_nexys_a7__GC0 PIN 533: INST veerwolf_core__GC0 PIN 353 TYPE 5
+INST veerwolf_nexys_a7__GC0 PIN 534: INST veerwolf_core__GC0 PIN 354 TYPE 5
+INST veerwolf_nexys_a7__GC0 PIN 535: INST veerwolf_core__GC0 PIN 355 TYPE 5
+INST veerwolf_nexys_a7__GC0 PIN 536: INST veerwolf_core__GC0 PIN 356 TYPE 5
+INST veerwolf_nexys_a7__GC0 PIN 537: INST veerwolf_core__GC0 PIN 361 TYPE 5
+INST veerwolf_nexys_a7__GC0 PIN 538: INST veerwolf_core__GC0 PIN 362 TYPE 5
+INST veerwolf_nexys_a7__GC0 PIN 539: INST veerwolf_core__GC0 PIN 363 TYPE 5
+INST veerwolf_nexys_a7__GC0 PIN 540: INST veerwolf_core__GC0 PIN 364 TYPE 5
+INST veerwolf_nexys_a7__GC0 PIN 541: INST veerwolf_core__GC0 PIN 357 TYPE 5
+INST veerwolf_nexys_a7__GC0 PIN 542: INST veerwolf_core__GC0 PIN 358 TYPE 5
+INST veerwolf_nexys_a7__GC0 PIN 543: INST veerwolf_core__GC0 PIN 359 TYPE 5
+INST veerwolf_nexys_a7__GC0 PIN 544: INST veerwolf_core__GC0 PIN 360 TYPE 5
+INST mem PIN 243: INST dec__GB0 PIN 400 TYPE 5
+INST mem PIN 244: INST dec__GB0 PIN 401 TYPE 5
+INST mem PIN 245: INST dec__GB0 PIN 383 TYPE 5
+INST mem PIN 247: INST lsu__GB1 PIN 375 TYPE 5
+INST mem PIN 262: INST lsu__GB1 PIN 390 TYPE 5
+INST mem PIN 263: INST lsu__GB1 PIN 391 TYPE 5
+INST mem PIN 278: INST lsu__GB1 PIN 406 TYPE 5
+INST mem PIN 279: INST lsu__GB1 PIN 407 TYPE 5
+INST mem PIN 294: INST lsu__GB1 PIN 422 TYPE 5
+INST mem PIN 295: INST lsu__GB1 PIN 423 TYPE 5
+INST mem PIN 605: INST veer__GCB0 PIN 819 TYPE 5
+INST mem PIN 606: INST veer__GCB0 PIN 820 TYPE 5
+INST mem PIN 607: INST veer__GCB0 PIN 821 TYPE 5
+INST mem PIN 608: INST veer__GCB0 PIN 822 TYPE 5
+INST veerwolf_nexys_a7__GC0 PIN 299: GENOME veerwolf_nexys_a7__GC0 PIN 299
+INST veerwolf_nexys_a7__GC0 PIN 629: GENOME veerwolf_nexys_a7__GC0 PIN 629
+INST veerwolf_nexys_a7__GC0 PIN 630: GENOME veerwolf_nexys_a7__GC0 PIN 630
+INST veerwolf_nexys_a7__GC0 PIN 83: INST veerwolf_core__GC0 PIN 1107 TYPE 0 GENOME veerwolf_nexys_a7__GC0 PIN 83
+INST veerwolf_nexys_a7__GC0 PIN 84: INST veerwolf_core__GC0 PIN 1108 TYPE 0 GENOME veerwolf_nexys_a7__GC0 PIN 84

@@ -24,68 +24,68 @@ set_param project.singleFileAddWarning.threshold 0
 set_param project.compositeFile.enableAutoGeneration 0
 set_param synth.vivado.isSynthRun true
 set_msg_config -source 4 -id {IP_Flow 19-2162} -severity warning -new_severity info
-set_property webtalk.parent_dir E:/RvfpgaSoC/Labs/LabSolution/Lab1/Lab1.cache/wt [current_project]
-set_property parent.project_path E:/RvfpgaSoC/Labs/LabSolution/Lab1/Lab1.xpr [current_project]
+set_property webtalk.parent_dir /home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabSolution/Lab1/Lab1.cache/wt [current_project]
+set_property parent.project_path /home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabSolution/Lab1/Lab1.xpr [current_project]
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language Verilog [current_project]
 set_property board_part digilentinc.com:nexys-a7-100t:part0:1.0 [current_project]
-set_property ip_output_repo e:/RvfpgaSoC/Labs/LabSolution/Lab1/Lab1.cache/ip [current_project]
+set_property ip_output_repo /home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabSolution/Lab1/Lab1.cache/ip [current_project]
 set_property ip_cache_permissions {read write} [current_project]
 set_property include_dirs {
-  E:/RvfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/SweRVolfSoC/Interconnect/AxiInterconnect/pulp-platform.org__axi_0.25.0/include
-  E:/RvfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/SweRVolfSoC/SweRVEh1CoreComplex/include
-  E:/RvfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/OtherSources/pulp-platform.org__common_cells_1.20.0/include
+  /home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/SweRVolfSoC/Interconnect/AxiInterconnect/pulp-platform.org__axi_0.25.0/include
+  /home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/SweRVolfSoC/SweRVEh1CoreComplex/include
+  /home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/OtherSources/pulp-platform.org__common_cells_1.20.0/include
 } [current_fileset]
 read_verilog {
-  E:/RvfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/SweRVolfSoC/Interconnect/AxiInterconnect/pulp-platform.org__axi_0.25.0/include/axi/assign.svh
-  E:/RvfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/SweRVolfSoC/Interconnect/AxiInterconnect/pulp-platform.org__axi_0.25.0/include/axi/typedef.svh
-  E:/RvfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/OtherSources/pulp-platform.org__common_cells_1.20.0/include/common_cells/registers.svh
-  E:/RvfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/SweRVolfSoC/SweRVEh1CoreComplex/include/common_defines.vh
-  E:/RvfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/serv_1.0.2/rtl/serv_params.vh
+  /home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/SweRVolfSoC/Interconnect/AxiInterconnect/pulp-platform.org__axi_0.25.0/include/axi/typedef.svh
+  /home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/SweRVolfSoC/Interconnect/AxiInterconnect/pulp-platform.org__axi_0.25.0/include/axi/assign.svh
+  /home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/OtherSources/pulp-platform.org__common_cells_1.20.0/include/common_cells/registers.svh
+  /home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/SweRVolfSoC/SweRVEh1CoreComplex/include/common_defines.vh
+  /home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/serv_1.0.2/rtl/serv_params.vh
 }
-set_property file_type "Verilog Header" [get_files E:/RvfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/SweRVolfSoC/Interconnect/AxiInterconnect/pulp-platform.org__axi_0.25.0/include/axi/assign.svh]
-set_property is_global_include true [get_files E:/RvfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/SweRVolfSoC/Interconnect/AxiInterconnect/pulp-platform.org__axi_0.25.0/include/axi/assign.svh]
-set_property file_type "Verilog Header" [get_files E:/RvfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/SweRVolfSoC/Interconnect/AxiInterconnect/pulp-platform.org__axi_0.25.0/include/axi/typedef.svh]
-set_property is_global_include true [get_files E:/RvfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/SweRVolfSoC/Interconnect/AxiInterconnect/pulp-platform.org__axi_0.25.0/include/axi/typedef.svh]
-set_property file_type "Verilog Header" [get_files E:/RvfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/OtherSources/pulp-platform.org__common_cells_1.20.0/include/common_cells/registers.svh]
-set_property is_global_include true [get_files E:/RvfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/OtherSources/pulp-platform.org__common_cells_1.20.0/include/common_cells/registers.svh]
-set_property is_global_include true [get_files E:/RvfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/SweRVolfSoC/SweRVEh1CoreComplex/include/common_defines.vh]
-read_mem E:/RvfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/sw/boot_main.mem
+set_property file_type "Verilog Header" [get_files /home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/SweRVolfSoC/Interconnect/AxiInterconnect/pulp-platform.org__axi_0.25.0/include/axi/typedef.svh]
+set_property is_global_include true [get_files /home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/SweRVolfSoC/Interconnect/AxiInterconnect/pulp-platform.org__axi_0.25.0/include/axi/typedef.svh]
+set_property file_type "Verilog Header" [get_files /home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/SweRVolfSoC/Interconnect/AxiInterconnect/pulp-platform.org__axi_0.25.0/include/axi/assign.svh]
+set_property is_global_include true [get_files /home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/SweRVolfSoC/Interconnect/AxiInterconnect/pulp-platform.org__axi_0.25.0/include/axi/assign.svh]
+set_property file_type "Verilog Header" [get_files /home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/OtherSources/pulp-platform.org__common_cells_1.20.0/include/common_cells/registers.svh]
+set_property is_global_include true [get_files /home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/OtherSources/pulp-platform.org__common_cells_1.20.0/include/common_cells/registers.svh]
+set_property is_global_include true [get_files /home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/SweRVolfSoC/SweRVEh1CoreComplex/include/common_defines.vh]
+read_mem /home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/sw/boot_main.mem
 read_verilog -library xil_defaultlib -sv {
-  E:/RvfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/SweRVolfSoC/SweRVEh1CoreComplex/include/swerv_types.sv
-  E:/RvfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/SweRVolfSoC/SweRVEh1CoreComplex/mem.sv
-  E:/RvfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/SweRVolfSoC/Interconnect/AxiInterconnect/pulp-platform.org__axi_0.25.0/src/axi_pkg.sv
-  E:/RvfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/SweRVolfSoC/Interconnect/AxiInterconnect/pulp-platform.org__axi_0.25.0/src/axi_intf.sv
-  E:/RvfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/OtherSources/pulp-platform.org__common_cells_1.20.0/src/spill_register.sv
-  E:/RvfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/SweRVolfSoC/Interconnect/AxiInterconnect/pulp-platform.org__axi_0.25.0/src/axi_cdc.sv
-  E:/RvfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/OtherSources/pulp-platform.org__common_cells_1.20.0/src/binary_to_gray.sv
-  E:/RvfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/OtherSources/bscan_tap.sv
-  E:/RvfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/OtherSources/pulp-platform.org__common_cells_1.20.0/src/cdc_fifo_gray.sv
-  E:/RvfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/OtherSources/pulp-platform.org__common_cells_1.20.0/src/gray_to_binary.sv
-  E:/RvfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/OtherSources/pulp-platform.org__common_cells_1.20.0/src/sync.sv
-  E:/RvfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/rvfpga.sv
+  /home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/SweRVolfSoC/SweRVEh1CoreComplex/include/swerv_types.sv
+  /home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/SweRVolfSoC/SweRVEh1CoreComplex/mem.sv
+  /home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/SweRVolfSoC/Interconnect/AxiInterconnect/pulp-platform.org__axi_0.25.0/src/axi_pkg.sv
+  /home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/SweRVolfSoC/Interconnect/AxiInterconnect/pulp-platform.org__axi_0.25.0/src/axi_intf.sv
+  /home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/OtherSources/pulp-platform.org__common_cells_1.20.0/src/spill_register.sv
+  /home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/SweRVolfSoC/Interconnect/AxiInterconnect/pulp-platform.org__axi_0.25.0/src/axi_cdc.sv
+  /home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/OtherSources/pulp-platform.org__common_cells_1.20.0/src/binary_to_gray.sv
+  /home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/OtherSources/bscan_tap.sv
+  /home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/OtherSources/pulp-platform.org__common_cells_1.20.0/src/cdc_fifo_gray.sv
+  /home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/OtherSources/pulp-platform.org__common_cells_1.20.0/src/gray_to_binary.sv
+  /home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/OtherSources/pulp-platform.org__common_cells_1.20.0/src/sync.sv
+  /home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/rvfpga.sv
 }
 read_verilog -library xil_defaultlib {
-  E:/RvfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/bd/BD/hdl/BD_wrapper.v
-  E:/RvfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/OtherSources/clk_gen_nexys.v
-  E:/RvfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v
-  E:/RvfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_top.v
-  E:/RvfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/serv_1.0.2/rtl/serv_alu.v
-  E:/RvfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/serv_1.0.2/rtl/serv_bufreg.v
-  E:/RvfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/serv_1.0.2/rtl/serv_csr.v
-  E:/RvfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/serv_1.0.2/rtl/serv_ctrl.v
-  E:/RvfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/serv_1.0.2/rtl/serv_decode.v
-  E:/RvfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/serv_1.0.2/rtl/serv_mem_if.v
-  E:/RvfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/serv_1.0.2/rtl/serv_rf_if.v
-  E:/RvfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/serv_1.0.2/rtl/serv_rf_ram.v
-  E:/RvfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/serv_1.0.2/rtl/serv_rf_ram_if.v
-  E:/RvfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/serv_1.0.2/rtl/serv_rf_top.v
-  E:/RvfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/serv_1.0.2/rtl/serv_shift.v
-  E:/RvfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/serv_1.0.2/rtl/serv_state.v
-  E:/RvfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/serv_1.0.2/rtl/serv_top.v
+  /home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/bd/BD/hdl/BD_wrapper.v
+  /home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/OtherSources/clk_gen_nexys.v
+  /home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v
+  /home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_top.v
+  /home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/serv_1.0.2/rtl/serv_alu.v
+  /home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/serv_1.0.2/rtl/serv_bufreg.v
+  /home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/serv_1.0.2/rtl/serv_csr.v
+  /home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/serv_1.0.2/rtl/serv_ctrl.v
+  /home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/serv_1.0.2/rtl/serv_decode.v
+  /home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/serv_1.0.2/rtl/serv_mem_if.v
+  /home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/serv_1.0.2/rtl/serv_rf_if.v
+  /home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/serv_1.0.2/rtl/serv_rf_ram.v
+  /home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/serv_1.0.2/rtl/serv_rf_ram_if.v
+  /home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/serv_1.0.2/rtl/serv_rf_top.v
+  /home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/serv_1.0.2/rtl/serv_shift.v
+  /home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/serv_1.0.2/rtl/serv_state.v
+  /home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/serv_1.0.2/rtl/serv_top.v
 }
-add_files E:/RvfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/bd/BD/BD.bd
-set_property used_in_implementation false [get_files -all E:/RvfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/bd/BD/BD_ooc.xdc]
+add_files /home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/bd/BD/BD.bd
+set_property used_in_implementation false [get_files -all /home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/bd/BD/BD_ooc.xdc]
 
 # Mark all dcp files as not used in implementation to prevent them from being
 # stitched into the results of this synthesis run. Any black boxes in the
@@ -95,11 +95,11 @@ set_property used_in_implementation false [get_files -all E:/RvfpgaSoC/Labs/LabS
 foreach dcp [get_files -quiet -all -filter file_type=="Design\ Checkpoint"] {
   set_property used_in_implementation false $dcp
 }
-read_xdc E:/RvfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/constrs_1/imports/src/liteDRAM.xdc
-set_property used_in_implementation false [get_files E:/RvfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/constrs_1/imports/src/liteDRAM.xdc]
+read_xdc /home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/constrs_1/imports/src/liteDRAM.xdc
+set_property used_in_implementation false [get_files /home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/constrs_1/imports/src/liteDRAM.xdc]
 
-read_xdc E:/RvfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/constrs_1/imports/src/rvfpga.xdc
-set_property used_in_implementation false [get_files E:/RvfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/constrs_1/imports/src/rvfpga.xdc]
+read_xdc /home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/constrs_1/imports/src/rvfpga.xdc
+set_property used_in_implementation false [get_files /home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/constrs_1/imports/src/rvfpga.xdc]
 
 read_xdc dont_touch.xdc
 set_property used_in_implementation false [get_files dont_touch.xdc]

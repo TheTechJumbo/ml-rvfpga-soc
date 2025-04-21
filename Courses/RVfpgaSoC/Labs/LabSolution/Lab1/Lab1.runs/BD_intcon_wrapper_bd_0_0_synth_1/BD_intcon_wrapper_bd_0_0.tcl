@@ -25,61 +25,61 @@ set_param project.singleFileAddWarning.threshold 0
 set_param project.compositeFile.enableAutoGeneration 0
 set_param synth.vivado.isSynthRun true
 set_msg_config -source 4 -id {IP_Flow 19-2162} -severity warning -new_severity info
-set_property webtalk.parent_dir E:/RvfpgaSoC/Labs/LabSolution/Lab1/Lab1.cache/wt [current_project]
-set_property parent.project_path E:/RvfpgaSoC/Labs/LabSolution/Lab1/Lab1.xpr [current_project]
+set_property webtalk.parent_dir /home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabSolution/Lab1/Lab1.cache/wt [current_project]
+set_property parent.project_path /home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabSolution/Lab1/Lab1.xpr [current_project]
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language Verilog [current_project]
 set_property board_part digilentinc.com:nexys-a7-100t:part0:1.0 [current_project]
-set_property ip_output_repo e:/RvfpgaSoC/Labs/LabSolution/Lab1/Lab1.cache/ip [current_project]
+set_property ip_output_repo /home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabSolution/Lab1/Lab1.cache/ip [current_project]
 set_property ip_cache_permissions {read write} [current_project]
 set_property include_dirs {
-  E:/RvfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/SweRVolfSoC/Interconnect/AxiInterconnect/pulp-platform.org__axi_0.25.0/include
-  E:/RvfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/SweRVolfSoC/SweRVEh1CoreComplex/include
-  E:/RvfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/OtherSources/pulp-platform.org__common_cells_1.20.0/include
+  /home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/SweRVolfSoC/Interconnect/AxiInterconnect/pulp-platform.org__axi_0.25.0/include
+  /home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/SweRVolfSoC/SweRVEh1CoreComplex/include
+  /home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/OtherSources/pulp-platform.org__common_cells_1.20.0/include
 } [current_fileset]
 read_verilog {
-  E:/RvfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/SweRVolfSoC/Interconnect/AxiInterconnect/pulp-platform.org__axi_0.25.0/include/axi/assign.svh
-  E:/RvfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/SweRVolfSoC/SweRVEh1CoreComplex/include/common_defines.vh
-  E:/RvfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/OtherSources/pulp-platform.org__common_cells_1.20.0/include/common_cells/registers.svh
-  E:/RvfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/SweRVolfSoC/Interconnect/AxiInterconnect/pulp-platform.org__axi_0.25.0/include/axi/typedef.svh
+  /home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/SweRVolfSoC/Interconnect/AxiInterconnect/pulp-platform.org__axi_0.25.0/include/axi/assign.svh
+  /home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/SweRVolfSoC/SweRVEh1CoreComplex/include/common_defines.vh
+  /home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/OtherSources/pulp-platform.org__common_cells_1.20.0/include/common_cells/registers.svh
+  /home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/SweRVolfSoC/Interconnect/AxiInterconnect/pulp-platform.org__axi_0.25.0/include/axi/typedef.svh
 }
-set_property file_type "Verilog Header" [get_files E:/RvfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/SweRVolfSoC/Interconnect/AxiInterconnect/pulp-platform.org__axi_0.25.0/include/axi/assign.svh]
-set_property is_global_include true [get_files E:/RvfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/SweRVolfSoC/Interconnect/AxiInterconnect/pulp-platform.org__axi_0.25.0/include/axi/assign.svh]
-set_property is_global_include true [get_files E:/RvfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/SweRVolfSoC/SweRVEh1CoreComplex/include/common_defines.vh]
-set_property file_type "Verilog Header" [get_files E:/RvfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/OtherSources/pulp-platform.org__common_cells_1.20.0/include/common_cells/registers.svh]
-set_property is_global_include true [get_files E:/RvfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/OtherSources/pulp-platform.org__common_cells_1.20.0/include/common_cells/registers.svh]
-set_property file_type "Verilog Header" [get_files E:/RvfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/SweRVolfSoC/Interconnect/AxiInterconnect/pulp-platform.org__axi_0.25.0/include/axi/typedef.svh]
-set_property is_global_include true [get_files E:/RvfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/SweRVolfSoC/Interconnect/AxiInterconnect/pulp-platform.org__axi_0.25.0/include/axi/typedef.svh]
-read_mem E:/RvfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/sw/boot_main.mem
+set_property file_type "Verilog Header" [get_files /home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/SweRVolfSoC/Interconnect/AxiInterconnect/pulp-platform.org__axi_0.25.0/include/axi/assign.svh]
+set_property is_global_include true [get_files /home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/SweRVolfSoC/Interconnect/AxiInterconnect/pulp-platform.org__axi_0.25.0/include/axi/assign.svh]
+set_property is_global_include true [get_files /home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/SweRVolfSoC/SweRVEh1CoreComplex/include/common_defines.vh]
+set_property file_type "Verilog Header" [get_files /home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/OtherSources/pulp-platform.org__common_cells_1.20.0/include/common_cells/registers.svh]
+set_property is_global_include true [get_files /home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/OtherSources/pulp-platform.org__common_cells_1.20.0/include/common_cells/registers.svh]
+set_property file_type "Verilog Header" [get_files /home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/SweRVolfSoC/Interconnect/AxiInterconnect/pulp-platform.org__axi_0.25.0/include/axi/typedef.svh]
+set_property is_global_include true [get_files /home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/SweRVolfSoC/Interconnect/AxiInterconnect/pulp-platform.org__axi_0.25.0/include/axi/typedef.svh]
+read_mem /home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/sw/boot_main.mem
 read_verilog -library xil_defaultlib -sv {
-  E:/RvfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/OtherSources/pulp-platform.org__common_cells_1.20.0/src/cf_math_pkg.sv
-  E:/RvfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/OtherSources/pulp-platform.org__common_cells_1.20.0/src/addr_decode.sv
-  E:/RvfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/SweRVolfSoC/Interconnect/AxiInterconnect/pulp-platform.org__axi_0.25.0/src/axi_pkg.sv
-  E:/RvfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/SweRVolfSoC/Interconnect/AxiInterconnect/pulp-platform.org__axi_0.25.0/src/axi_atop_filter.sv
-  E:/RvfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/SweRVolfSoC/Interconnect/AxiInterconnect/pulp-platform.org__axi_0.25.0/src/axi_demux.sv
-  E:/RvfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/SweRVolfSoC/Interconnect/AxiInterconnect/pulp-platform.org__axi_0.25.0/src/axi_err_slv.sv
-  E:/RvfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/SweRVolfSoC/Interconnect/AxiInterconnect/pulp-platform.org__axi_0.25.0/src/axi_id_prepend.sv
-  E:/RvfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/SweRVolfSoC/Interconnect/AxiInterconnect/axi_intercon.sv
-  E:/RvfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/SweRVolfSoC/Interconnect/AxiInterconnect/pulp-platform.org__axi_0.25.0/src/axi_intf.sv
-  E:/RvfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/SweRVolfSoC/Interconnect/AxiInterconnect/pulp-platform.org__axi_0.25.0/src/axi_mux.sv
-  E:/RvfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/SweRVolfSoC/Interconnect/AxiInterconnect/pulp-platform.org__axi_0.25.0/src/axi_xbar.sv
-  E:/RvfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/OtherSources/pulp-platform.org__common_cells_1.20.0/src/counter.sv
-  E:/RvfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/OtherSources/pulp-platform.org__common_cells_1.20.0/src/delta_counter.sv
-  E:/RvfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/OtherSources/pulp-platform.org__common_cells_1.20.0/src/deprecated/fifo_v2.sv
-  E:/RvfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/OtherSources/pulp-platform.org__common_cells_1.20.0/src/fifo_v3.sv
-  E:/RvfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/OtherSources/pulp-platform.org__common_cells_1.20.0/src/lzc.sv
-  E:/RvfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/OtherSources/pulp-platform.org__common_cells_1.20.0/src/rr_arb_tree.sv
-  E:/RvfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/OtherSources/pulp-platform.org__common_cells_1.20.0/src/spill_register.sv
-  E:/RvfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/OtherSources/pulp-platform.org__common_cells_1.20.0/src/stream_register.sv
+  /home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/OtherSources/pulp-platform.org__common_cells_1.20.0/src/cf_math_pkg.sv
+  /home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/OtherSources/pulp-platform.org__common_cells_1.20.0/src/addr_decode.sv
+  /home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/SweRVolfSoC/Interconnect/AxiInterconnect/pulp-platform.org__axi_0.25.0/src/axi_pkg.sv
+  /home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/SweRVolfSoC/Interconnect/AxiInterconnect/pulp-platform.org__axi_0.25.0/src/axi_atop_filter.sv
+  /home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/SweRVolfSoC/Interconnect/AxiInterconnect/pulp-platform.org__axi_0.25.0/src/axi_demux.sv
+  /home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/SweRVolfSoC/Interconnect/AxiInterconnect/pulp-platform.org__axi_0.25.0/src/axi_err_slv.sv
+  /home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/SweRVolfSoC/Interconnect/AxiInterconnect/pulp-platform.org__axi_0.25.0/src/axi_id_prepend.sv
+  /home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/SweRVolfSoC/Interconnect/AxiInterconnect/axi_intercon.sv
+  /home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/SweRVolfSoC/Interconnect/AxiInterconnect/pulp-platform.org__axi_0.25.0/src/axi_intf.sv
+  /home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/SweRVolfSoC/Interconnect/AxiInterconnect/pulp-platform.org__axi_0.25.0/src/axi_mux.sv
+  /home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/SweRVolfSoC/Interconnect/AxiInterconnect/pulp-platform.org__axi_0.25.0/src/axi_xbar.sv
+  /home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/OtherSources/pulp-platform.org__common_cells_1.20.0/src/counter.sv
+  /home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/OtherSources/pulp-platform.org__common_cells_1.20.0/src/delta_counter.sv
+  /home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/OtherSources/pulp-platform.org__common_cells_1.20.0/src/deprecated/fifo_v2.sv
+  /home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/OtherSources/pulp-platform.org__common_cells_1.20.0/src/fifo_v3.sv
+  /home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/OtherSources/pulp-platform.org__common_cells_1.20.0/src/lzc.sv
+  /home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/OtherSources/pulp-platform.org__common_cells_1.20.0/src/rr_arb_tree.sv
+  /home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/OtherSources/pulp-platform.org__common_cells_1.20.0/src/spill_register.sv
+  /home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/OtherSources/pulp-platform.org__common_cells_1.20.0/src/stream_register.sv
 }
 read_verilog -library xil_defaultlib {
-  E:/RvfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/SweRVolfSoC/Interconnect/AxiToWb/axi2wb.v
-  E:/RvfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/SweRVolfSoC/Interconnect/AxiInterconnect/axi_intercon_wr.v
-  E:/RvfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/SweRVolfSoC/Interconnect/WishboneInterconnect/wb_intercon.v
-  E:/RvfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/SweRVolfSoC/Interconnect/WishboneInterconnect/wb_intercon_1.2.2-r1/wb_mux.v
-  E:/RvfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/SweRVolfSoC/Interconnect/intcon_wrapper.v
+  /home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/SweRVolfSoC/Interconnect/AxiToWb/axi2wb.v
+  /home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/SweRVolfSoC/Interconnect/AxiInterconnect/axi_intercon_wr.v
+  /home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/SweRVolfSoC/Interconnect/WishboneInterconnect/wb_intercon.v
+  /home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/SweRVolfSoC/Interconnect/WishboneInterconnect/wb_intercon_1.2.2-r1/wb_mux.v
+  /home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/imports/src/SweRVolfSoC/Interconnect/intcon_wrapper.v
 }
-read_ip -quiet e:/RvfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/bd/BD/ip/BD_intcon_wrapper_bd_0_0/BD_intcon_wrapper_bd_0_0.xci
+read_ip -quiet /home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/bd/BD/ip/BD_intcon_wrapper_bd_0_0/BD_intcon_wrapper_bd_0_0.xci
 
 # Mark all dcp files as not used in implementation to prevent them from being
 # stitched into the results of this synthesis run. Any black boxes in the
@@ -91,7 +91,7 @@ foreach dcp [get_files -quiet -all -filter file_type=="Design\ Checkpoint"] {
 }
 set_param ips.enableIPCacheLiteLoad 1
 
-set cached_ip [config_ip_cache -export -no_bom  -dir E:/RvfpgaSoC/Labs/LabSolution/Lab1/Lab1.runs/BD_intcon_wrapper_bd_0_0_synth_1 -new_name BD_intcon_wrapper_bd_0_0 -ip [get_ips BD_intcon_wrapper_bd_0_0]]
+set cached_ip [config_ip_cache -export -no_bom  -dir /home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabSolution/Lab1/Lab1.runs/BD_intcon_wrapper_bd_0_0_synth_1 -new_name BD_intcon_wrapper_bd_0_0 -ip [get_ips BD_intcon_wrapper_bd_0_0]]
 
 if { $cached_ip eq {} } {
 close [open __synthesis_is_running__ w]
@@ -132,32 +132,32 @@ write_checkpoint -force -noxdef BD_intcon_wrapper_bd_0_0.dcp
 create_report "BD_intcon_wrapper_bd_0_0_synth_1_synth_report_utilization_0" "report_utilization -file BD_intcon_wrapper_bd_0_0_utilization_synth.rpt -pb BD_intcon_wrapper_bd_0_0_utilization_synth.pb"
 
 if { [catch {
-  file copy -force E:/RvfpgaSoC/Labs/LabSolution/Lab1/Lab1.runs/BD_intcon_wrapper_bd_0_0_synth_1/BD_intcon_wrapper_bd_0_0.dcp e:/RvfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/bd/BD/ip/BD_intcon_wrapper_bd_0_0/BD_intcon_wrapper_bd_0_0.dcp
+  file copy -force /home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabSolution/Lab1/Lab1.runs/BD_intcon_wrapper_bd_0_0_synth_1/BD_intcon_wrapper_bd_0_0.dcp /home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/bd/BD/ip/BD_intcon_wrapper_bd_0_0/BD_intcon_wrapper_bd_0_0.dcp
 } _RESULT ] } { 
   send_msg_id runtcl-3 error "ERROR: Unable to successfully create or copy the sub-design checkpoint file."
   error "ERROR: Unable to successfully create or copy the sub-design checkpoint file."
 }
 
 if { [catch {
-  write_verilog -force -mode synth_stub e:/RvfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/bd/BD/ip/BD_intcon_wrapper_bd_0_0/BD_intcon_wrapper_bd_0_0_stub.v
+  write_verilog -force -mode synth_stub /home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/bd/BD/ip/BD_intcon_wrapper_bd_0_0/BD_intcon_wrapper_bd_0_0_stub.v
 } _RESULT ] } { 
   puts "CRITICAL WARNING: Unable to successfully create a Verilog synthesis stub for the sub-design. This may lead to errors in top level synthesis of the design. Error reported: $_RESULT"
 }
 
 if { [catch {
-  write_vhdl -force -mode synth_stub e:/RvfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/bd/BD/ip/BD_intcon_wrapper_bd_0_0/BD_intcon_wrapper_bd_0_0_stub.vhdl
+  write_vhdl -force -mode synth_stub /home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/bd/BD/ip/BD_intcon_wrapper_bd_0_0/BD_intcon_wrapper_bd_0_0_stub.vhdl
 } _RESULT ] } { 
   puts "CRITICAL WARNING: Unable to successfully create a VHDL synthesis stub for the sub-design. This may lead to errors in top level synthesis of the design. Error reported: $_RESULT"
 }
 
 if { [catch {
-  write_verilog -force -mode funcsim e:/RvfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/bd/BD/ip/BD_intcon_wrapper_bd_0_0/BD_intcon_wrapper_bd_0_0_sim_netlist.v
+  write_verilog -force -mode funcsim /home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/bd/BD/ip/BD_intcon_wrapper_bd_0_0/BD_intcon_wrapper_bd_0_0_sim_netlist.v
 } _RESULT ] } { 
   puts "CRITICAL WARNING: Unable to successfully create the Verilog functional simulation sub-design file. Post-Synthesis Functional Simulation with this file may not be possible or may give incorrect results. Error reported: $_RESULT"
 }
 
 if { [catch {
-  write_vhdl -force -mode funcsim e:/RvfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/bd/BD/ip/BD_intcon_wrapper_bd_0_0/BD_intcon_wrapper_bd_0_0_sim_netlist.vhdl
+  write_vhdl -force -mode funcsim /home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/bd/BD/ip/BD_intcon_wrapper_bd_0_0/BD_intcon_wrapper_bd_0_0_sim_netlist.vhdl
 } _RESULT ] } { 
   puts "CRITICAL WARNING: Unable to successfully create the VHDL functional simulation sub-design file. Post-Synthesis Functional Simulation with this file may not be possible or may give incorrect results. Error reported: $_RESULT"
 }
@@ -167,47 +167,47 @@ if { [catch {
 
 
 if { [catch {
-  file copy -force E:/RvfpgaSoC/Labs/LabSolution/Lab1/Lab1.runs/BD_intcon_wrapper_bd_0_0_synth_1/BD_intcon_wrapper_bd_0_0.dcp e:/RvfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/bd/BD/ip/BD_intcon_wrapper_bd_0_0/BD_intcon_wrapper_bd_0_0.dcp
+  file copy -force /home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabSolution/Lab1/Lab1.runs/BD_intcon_wrapper_bd_0_0_synth_1/BD_intcon_wrapper_bd_0_0.dcp /home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/bd/BD/ip/BD_intcon_wrapper_bd_0_0/BD_intcon_wrapper_bd_0_0.dcp
 } _RESULT ] } { 
   send_msg_id runtcl-3 error "ERROR: Unable to successfully create or copy the sub-design checkpoint file."
   error "ERROR: Unable to successfully create or copy the sub-design checkpoint file."
 }
 
 if { [catch {
-  file rename -force E:/RvfpgaSoC/Labs/LabSolution/Lab1/Lab1.runs/BD_intcon_wrapper_bd_0_0_synth_1/BD_intcon_wrapper_bd_0_0_stub.v e:/RvfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/bd/BD/ip/BD_intcon_wrapper_bd_0_0/BD_intcon_wrapper_bd_0_0_stub.v
+  file rename -force /home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabSolution/Lab1/Lab1.runs/BD_intcon_wrapper_bd_0_0_synth_1/BD_intcon_wrapper_bd_0_0_stub.v /home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/bd/BD/ip/BD_intcon_wrapper_bd_0_0/BD_intcon_wrapper_bd_0_0_stub.v
 } _RESULT ] } { 
   puts "CRITICAL WARNING: Unable to successfully create a Verilog synthesis stub for the sub-design. This may lead to errors in top level synthesis of the design. Error reported: $_RESULT"
 }
 
 if { [catch {
-  file rename -force E:/RvfpgaSoC/Labs/LabSolution/Lab1/Lab1.runs/BD_intcon_wrapper_bd_0_0_synth_1/BD_intcon_wrapper_bd_0_0_stub.vhdl e:/RvfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/bd/BD/ip/BD_intcon_wrapper_bd_0_0/BD_intcon_wrapper_bd_0_0_stub.vhdl
+  file rename -force /home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabSolution/Lab1/Lab1.runs/BD_intcon_wrapper_bd_0_0_synth_1/BD_intcon_wrapper_bd_0_0_stub.vhdl /home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/bd/BD/ip/BD_intcon_wrapper_bd_0_0/BD_intcon_wrapper_bd_0_0_stub.vhdl
 } _RESULT ] } { 
   puts "CRITICAL WARNING: Unable to successfully create a VHDL synthesis stub for the sub-design. This may lead to errors in top level synthesis of the design. Error reported: $_RESULT"
 }
 
 if { [catch {
-  file rename -force E:/RvfpgaSoC/Labs/LabSolution/Lab1/Lab1.runs/BD_intcon_wrapper_bd_0_0_synth_1/BD_intcon_wrapper_bd_0_0_sim_netlist.v e:/RvfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/bd/BD/ip/BD_intcon_wrapper_bd_0_0/BD_intcon_wrapper_bd_0_0_sim_netlist.v
+  file rename -force /home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabSolution/Lab1/Lab1.runs/BD_intcon_wrapper_bd_0_0_synth_1/BD_intcon_wrapper_bd_0_0_sim_netlist.v /home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/bd/BD/ip/BD_intcon_wrapper_bd_0_0/BD_intcon_wrapper_bd_0_0_sim_netlist.v
 } _RESULT ] } { 
   puts "CRITICAL WARNING: Unable to successfully create the Verilog functional simulation sub-design file. Post-Synthesis Functional Simulation with this file may not be possible or may give incorrect results. Error reported: $_RESULT"
 }
 
 if { [catch {
-  file rename -force E:/RvfpgaSoC/Labs/LabSolution/Lab1/Lab1.runs/BD_intcon_wrapper_bd_0_0_synth_1/BD_intcon_wrapper_bd_0_0_sim_netlist.vhdl e:/RvfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/bd/BD/ip/BD_intcon_wrapper_bd_0_0/BD_intcon_wrapper_bd_0_0_sim_netlist.vhdl
+  file rename -force /home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabSolution/Lab1/Lab1.runs/BD_intcon_wrapper_bd_0_0_synth_1/BD_intcon_wrapper_bd_0_0_sim_netlist.vhdl /home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/bd/BD/ip/BD_intcon_wrapper_bd_0_0/BD_intcon_wrapper_bd_0_0_sim_netlist.vhdl
 } _RESULT ] } { 
   puts "CRITICAL WARNING: Unable to successfully create the VHDL functional simulation sub-design file. Post-Synthesis Functional Simulation with this file may not be possible or may give incorrect results. Error reported: $_RESULT"
 }
 
 }; # end if cached_ip 
 
-if {[file isdir E:/RvfpgaSoC/Labs/LabSolution/Lab1/Lab1.ip_user_files/ip/BD_intcon_wrapper_bd_0_0]} {
+if {[file isdir /home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabSolution/Lab1/Lab1.ip_user_files/ip/BD_intcon_wrapper_bd_0_0]} {
   catch { 
-    file copy -force e:/RvfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/bd/BD/ip/BD_intcon_wrapper_bd_0_0/BD_intcon_wrapper_bd_0_0_stub.v E:/RvfpgaSoC/Labs/LabSolution/Lab1/Lab1.ip_user_files/ip/BD_intcon_wrapper_bd_0_0
+    file copy -force /home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/bd/BD/ip/BD_intcon_wrapper_bd_0_0/BD_intcon_wrapper_bd_0_0_stub.v /home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabSolution/Lab1/Lab1.ip_user_files/ip/BD_intcon_wrapper_bd_0_0
   }
 }
 
-if {[file isdir E:/RvfpgaSoC/Labs/LabSolution/Lab1/Lab1.ip_user_files/ip/BD_intcon_wrapper_bd_0_0]} {
+if {[file isdir /home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabSolution/Lab1/Lab1.ip_user_files/ip/BD_intcon_wrapper_bd_0_0]} {
   catch { 
-    file copy -force e:/RvfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/bd/BD/ip/BD_intcon_wrapper_bd_0_0/BD_intcon_wrapper_bd_0_0_stub.vhdl E:/RvfpgaSoC/Labs/LabSolution/Lab1/Lab1.ip_user_files/ip/BD_intcon_wrapper_bd_0_0
+    file copy -force /home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabSolution/Lab1/Lab1.srcs/sources_1/bd/BD/ip/BD_intcon_wrapper_bd_0_0/BD_intcon_wrapper_bd_0_0_stub.vhdl /home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabSolution/Lab1/Lab1.ip_user_files/ip/BD_intcon_wrapper_bd_0_0
   }
 }
 file delete __synthesis_is_running__

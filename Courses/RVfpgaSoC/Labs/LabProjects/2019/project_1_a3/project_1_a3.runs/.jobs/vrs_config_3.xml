@@ -1,0 +1,124 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="BD_bidirec_22_0_synth_1" LaunchDir="/home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabProjects/2019/project_1_a3/project_1_a3.runs/BD_bidirec_22_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="BD_bidirec_23_0_synth_1" LaunchDir="/home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabProjects/2019/project_1_a3/project_1_a3.runs/BD_bidirec_23_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="BD_swerv_wrapper_verilog_0_0_synth_1" LaunchDir="/home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabProjects/2019/project_1_a3/project_1_a3.runs/BD_swerv_wrapper_verilog_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="BD_intcon_wrapper_bd_0_0_synth_1" LaunchDir="/home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabProjects/2019/project_1_a3/project_1_a3.runs/BD_intcon_wrapper_bd_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="BD_bootrom_wrapper_0_0_synth_1" LaunchDir="/home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabProjects/2019/project_1_a3/project_1_a3.runs/BD_bootrom_wrapper_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="BD_syscon_wrapper_0_0_synth_1" LaunchDir="/home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabProjects/2019/project_1_a3/project_1_a3.runs/BD_syscon_wrapper_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="BD_gpio_wrapper_0_0_synth_1" LaunchDir="/home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabProjects/2019/project_1_a3/project_1_a3.runs/BD_gpio_wrapper_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="BD_bidirec_0_1_synth_1" LaunchDir="/home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabProjects/2019/project_1_a3/project_1_a3.runs/BD_bidirec_0_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="BD_bidirec_0_2_synth_1" LaunchDir="/home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabProjects/2019/project_1_a3/project_1_a3.runs/BD_bidirec_0_2_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="BD_bidirec_0_3_synth_1" LaunchDir="/home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabProjects/2019/project_1_a3/project_1_a3.runs/BD_bidirec_0_3_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="BD_bidirec_0_4_synth_1" LaunchDir="/home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabProjects/2019/project_1_a3/project_1_a3.runs/BD_bidirec_0_4_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="BD_bidirec_0_5_synth_1" LaunchDir="/home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabProjects/2019/project_1_a3/project_1_a3.runs/BD_bidirec_0_5_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="BD_bidirec_1_0_synth_1" LaunchDir="/home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabProjects/2019/project_1_a3/project_1_a3.runs/BD_bidirec_1_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="BD_bidirec_2_0_synth_1" LaunchDir="/home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabProjects/2019/project_1_a3/project_1_a3.runs/BD_bidirec_2_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="BD_bidirec_3_0_synth_1" LaunchDir="/home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabProjects/2019/project_1_a3/project_1_a3.runs/BD_bidirec_3_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="BD_bidirec_7_1_synth_1" LaunchDir="/home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabProjects/2019/project_1_a3/project_1_a3.runs/BD_bidirec_7_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="BD_bidirec_7_2_synth_1" LaunchDir="/home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabProjects/2019/project_1_a3/project_1_a3.runs/BD_bidirec_7_2_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="BD_bidirec_7_3_synth_1" LaunchDir="/home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabProjects/2019/project_1_a3/project_1_a3.runs/BD_bidirec_7_3_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="BD_bidirec_7_4_synth_1" LaunchDir="/home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabProjects/2019/project_1_a3/project_1_a3.runs/BD_bidirec_7_4_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="BD_bidirec_7_5_synth_1" LaunchDir="/home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabProjects/2019/project_1_a3/project_1_a3.runs/BD_bidirec_7_5_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="BD_bidirec_7_6_synth_1" LaunchDir="/home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabProjects/2019/project_1_a3/project_1_a3.runs/BD_bidirec_7_6_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="BD_bidirec_7_7_synth_1" LaunchDir="/home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabProjects/2019/project_1_a3/project_1_a3.runs/BD_bidirec_7_7_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="BD_bidirec_7_8_synth_1" LaunchDir="/home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabProjects/2019/project_1_a3/project_1_a3.runs/BD_bidirec_7_8_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="BD_bidirec_16_4_synth_1" LaunchDir="/home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabProjects/2019/project_1_a3/project_1_a3.runs/BD_bidirec_16_4_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="BD_bidirec_17_0_synth_1" LaunchDir="/home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabProjects/2019/project_1_a3/project_1_a3.runs/BD_bidirec_17_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="BD_bidirec_18_0_synth_1" LaunchDir="/home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabProjects/2019/project_1_a3/project_1_a3.runs/BD_bidirec_18_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="BD_bidirec_19_0_synth_1" LaunchDir="/home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabProjects/2019/project_1_a3/project_1_a3.runs/BD_bidirec_19_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="BD_bidirec_16_5_synth_1" LaunchDir="/home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabProjects/2019/project_1_a3/project_1_a3.runs/BD_bidirec_16_5_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="BD_bidirec_20_0_synth_1" LaunchDir="/home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabProjects/2019/project_1_a3/project_1_a3.runs/BD_bidirec_20_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="BD_bidirec_21_0_synth_1" LaunchDir="/home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabProjects/2019/project_1_a3/project_1_a3.runs/BD_bidirec_21_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="BD_bidirec_18_1_synth_1" LaunchDir="/home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabProjects/2019/project_1_a3/project_1_a3.runs/BD_bidirec_18_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="BD_bidirec_17_1_synth_1" LaunchDir="/home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabProjects/2019/project_1_a3/project_1_a3.runs/BD_bidirec_17_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="BD_bidirec_19_1_synth_1" LaunchDir="/home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabProjects/2019/project_1_a3/project_1_a3.runs/BD_bidirec_19_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="BD_bidirec_16_3_synth_1" LaunchDir="/home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabProjects/2019/project_1_a3/project_1_a3.runs/BD_bidirec_16_3_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="BD_bidirec_16_0_synth_1" LaunchDir="/home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabProjects/2019/project_1_a3/project_1_a3.runs/BD_bidirec_16_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="BD_bidirec_16_2_synth_1" LaunchDir="/home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabProjects/2019/project_1_a3/project_1_a3.runs/BD_bidirec_16_2_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="BD_bidirec_16_1_synth_1" LaunchDir="/home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabProjects/2019/project_1_a3/project_1_a3.runs/BD_bidirec_16_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="synth_1" LaunchDir="/home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabProjects/2019/project_1_a3/project_1_a3.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="BD_bidirec_22_0_synth_1"/>
+		<Parent Id="BD_bidirec_23_0_synth_1"/>
+		<Parent Id="BD_swerv_wrapper_verilog_0_0_synth_1"/>
+		<Parent Id="BD_intcon_wrapper_bd_0_0_synth_1"/>
+		<Parent Id="BD_bootrom_wrapper_0_0_synth_1"/>
+		<Parent Id="BD_syscon_wrapper_0_0_synth_1"/>
+		<Parent Id="BD_gpio_wrapper_0_0_synth_1"/>
+		<Parent Id="BD_bidirec_0_1_synth_1"/>
+		<Parent Id="BD_bidirec_0_2_synth_1"/>
+		<Parent Id="BD_bidirec_0_3_synth_1"/>
+		<Parent Id="BD_bidirec_0_4_synth_1"/>
+		<Parent Id="BD_bidirec_0_5_synth_1"/>
+		<Parent Id="BD_bidirec_1_0_synth_1"/>
+		<Parent Id="BD_bidirec_2_0_synth_1"/>
+		<Parent Id="BD_bidirec_3_0_synth_1"/>
+		<Parent Id="BD_bidirec_7_1_synth_1"/>
+		<Parent Id="BD_bidirec_7_2_synth_1"/>
+		<Parent Id="BD_bidirec_7_3_synth_1"/>
+		<Parent Id="BD_bidirec_7_4_synth_1"/>
+		<Parent Id="BD_bidirec_7_5_synth_1"/>
+		<Parent Id="BD_bidirec_7_6_synth_1"/>
+		<Parent Id="BD_bidirec_7_7_synth_1"/>
+		<Parent Id="BD_bidirec_7_8_synth_1"/>
+		<Parent Id="BD_bidirec_16_4_synth_1"/>
+		<Parent Id="BD_bidirec_17_0_synth_1"/>
+		<Parent Id="BD_bidirec_18_0_synth_1"/>
+		<Parent Id="BD_bidirec_19_0_synth_1"/>
+		<Parent Id="BD_bidirec_16_5_synth_1"/>
+		<Parent Id="BD_bidirec_20_0_synth_1"/>
+		<Parent Id="BD_bidirec_21_0_synth_1"/>
+		<Parent Id="BD_bidirec_18_1_synth_1"/>
+		<Parent Id="BD_bidirec_17_1_synth_1"/>
+		<Parent Id="BD_bidirec_19_1_synth_1"/>
+		<Parent Id="BD_bidirec_16_3_synth_1"/>
+		<Parent Id="BD_bidirec_16_0_synth_1"/>
+		<Parent Id="BD_bidirec_16_2_synth_1"/>
+		<Parent Id="BD_bidirec_16_1_synth_1"/>
+	</Run>
+	<Run Id="impl_1" LaunchDir="/home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabProjects/2019/project_1_a3/project_1_a3.runs/impl_1" FlowId="Vivado_Implementation" FromStepId="init_design" ToStepId="write_bitstream">
+		<Parent Id="synth_1"/>
+		<Parent Id="BD_bidirec_22_0_synth_1"/>
+		<Parent Id="BD_bidirec_23_0_synth_1"/>
+		<Parent Id="BD_swerv_wrapper_verilog_0_0_synth_1"/>
+		<Parent Id="BD_intcon_wrapper_bd_0_0_synth_1"/>
+		<Parent Id="BD_bootrom_wrapper_0_0_synth_1"/>
+		<Parent Id="BD_syscon_wrapper_0_0_synth_1"/>
+		<Parent Id="BD_gpio_wrapper_0_0_synth_1"/>
+		<Parent Id="BD_bidirec_0_1_synth_1"/>
+		<Parent Id="BD_bidirec_0_2_synth_1"/>
+		<Parent Id="BD_bidirec_0_3_synth_1"/>
+		<Parent Id="BD_bidirec_0_4_synth_1"/>
+		<Parent Id="BD_bidirec_0_5_synth_1"/>
+		<Parent Id="BD_bidirec_1_0_synth_1"/>
+		<Parent Id="BD_bidirec_2_0_synth_1"/>
+		<Parent Id="BD_bidirec_3_0_synth_1"/>
+		<Parent Id="BD_bidirec_7_1_synth_1"/>
+		<Parent Id="BD_bidirec_7_2_synth_1"/>
+		<Parent Id="BD_bidirec_7_3_synth_1"/>
+		<Parent Id="BD_bidirec_7_4_synth_1"/>
+		<Parent Id="BD_bidirec_7_5_synth_1"/>
+		<Parent Id="BD_bidirec_7_6_synth_1"/>
+		<Parent Id="BD_bidirec_7_7_synth_1"/>
+		<Parent Id="BD_bidirec_7_8_synth_1"/>
+		<Parent Id="BD_bidirec_16_4_synth_1"/>
+		<Parent Id="BD_bidirec_17_0_synth_1"/>
+		<Parent Id="BD_bidirec_18_0_synth_1"/>
+		<Parent Id="BD_bidirec_19_0_synth_1"/>
+		<Parent Id="BD_bidirec_16_5_synth_1"/>
+		<Parent Id="BD_bidirec_20_0_synth_1"/>
+		<Parent Id="BD_bidirec_21_0_synth_1"/>
+		<Parent Id="BD_bidirec_18_1_synth_1"/>
+		<Parent Id="BD_bidirec_17_1_synth_1"/>
+		<Parent Id="BD_bidirec_19_1_synth_1"/>
+		<Parent Id="BD_bidirec_16_3_synth_1"/>
+		<Parent Id="BD_bidirec_16_0_synth_1"/>
+		<Parent Id="BD_bidirec_16_2_synth_1"/>
+		<Parent Id="BD_bidirec_16_1_synth_1"/>
+	</Run>
+	<Parameters>
+		<Parameter Name="runs.monitorLSFJobs" Val="true" Type="bool"/>
+		<Parameter Name="runs.enableClusterConf" Val="true" Type="bool"/>
+	</Parameters>
+</Runs>
+

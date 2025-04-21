@@ -1,20 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="BD_bidirec_8_0_synth_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1622485651">
-  <File Type="PA-TCL" Name="BD_bidirec_8_0.tcl"/>
-  <File Type="RDS-PROPCONSTRS" Name="BD_bidirec_8_0_drc_synth.rpt"/>
+<GenRun Id="BD_bidirec_8_0_synth_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1745161196">
+  <File Type="VDS-TIMING-PB" Name="BD_bidirec_8_0_timing_summary_synth.pb"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="BD_bidirec_8_0_timing_summary_synth.rpt"/>
+  <File Type="RDS-DCP" Name="BD_bidirec_8_0.dcp"/>
   <File Type="REPORTS-TCL" Name="BD_bidirec_8_0_reports.tcl"/>
+  <File Type="PA-TCL" Name="BD_bidirec_8_0.tcl"/>
   <File Type="RDS-RDS" Name="BD_bidirec_8_0.vds"/>
+  <File Type="RDS-PROPCONSTRS" Name="BD_bidirec_8_0_drc_synth.rpt"/>
   <File Type="RDS-UTIL" Name="BD_bidirec_8_0_utilization_synth.rpt"/>
   <File Type="RDS-UTIL-PB" Name="BD_bidirec_8_0_utilization_synth.pb"/>
-  <File Type="RDS-DCP" Name="BD_bidirec_8_0.dcp"/>
-  <File Type="VDS-TIMINGSUMMARY" Name="BD_bidirec_8_0_timing_summary_synth.rpt"/>
-  <File Type="VDS-TIMING-PB" Name="BD_bidirec_8_0_timing_summary_synth.pb"/>
   <FileSet Name="sources" Type="BlockSrcs" RelSrcDir="$PSRCDIR/BD_bidirec_8_0">
     <File Path="$PSRCDIR/sources_1/bd/BD/ip/BD_bidirec_8_0/BD_bidirec_8_0.xci">
       <FileInfo>
+        <Attr Name="Library" Val="xil_defaultlib"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
         <Attr Name="UsedIn" Val="simulation"/>
+        <Attr Name="ProcessingOrder" Val="EARLY"/>
       </FileInfo>
     </File>
     <Config>
@@ -25,9 +27,11 @@
   <FileSet Name="constrs_in" Type="BlockSrcs" RelSrcDir="$PSRCDIR/BD_bidirec_8_0">
     <File Path="$PSRCDIR/sources_1/bd/BD/ip/BD_bidirec_8_0/BD_bidirec_8_0.xci">
       <FileInfo>
+        <Attr Name="Library" Val="xil_defaultlib"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
         <Attr Name="UsedIn" Val="simulation"/>
+        <Attr Name="ProcessingOrder" Val="EARLY"/>
       </FileInfo>
     </File>
     <Config>
@@ -37,10 +41,8 @@
   </FileSet>
   <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
     <Filter Type="Utils"/>
-    <File Path="$PSRCDIR/utils_1/imports/Lab1/script.tcl">
+    <File Path="$PPRDIR/../../LabResources/Lab1/script.tcl">
       <FileInfo>
-        <Attr Name="ImportPath" Val="$PPRDIR/../../LabResources/Lab1/script.tcl"/>
-        <Attr Name="ImportTime" Val="1619997106"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
         <Attr Name="UsedIn" Val="simulation"/>

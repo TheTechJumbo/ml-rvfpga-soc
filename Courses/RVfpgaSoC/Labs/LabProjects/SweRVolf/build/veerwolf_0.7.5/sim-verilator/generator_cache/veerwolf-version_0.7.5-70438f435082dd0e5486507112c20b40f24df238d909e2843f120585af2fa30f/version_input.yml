@@ -1,0 +1,4 @@
+files_root: /home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabProjects/SweRVolf/fusesoc_libraries/swervolf
+gapi: '1.0'
+parameters: {}
+vlnv: ::veerwolf-version:0.7.5

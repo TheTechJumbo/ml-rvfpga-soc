@@ -1,0 +1,23 @@
+CAPI=2:
+name: ::veerwolf-veer_eh1_default_config:0.7.5
+filesets:
+  rtl:
+    files:
+    - veer_config/common_defines.vh:
+        copyto: config/common_defines.vh
+        file_type: systemVerilogSource
+    - veer_config/pic_ctrl_verilator_unroll.sv:
+        copyto: config/pic_ctrl_verilator_unroll.sv
+        is_include_file: true
+        file_type: systemVerilogSource
+    - veer_config/pic_map_auto.h:
+        copyto: config/pic_map_auto.h
+        is_include_file: true
+        file_type: systemVerilogSource
+    file_type: ''
+    logical_name: ''
+parameters: {}
+targets:
+  default:
+    filesets:
+    - rtl

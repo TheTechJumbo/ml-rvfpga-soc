@@ -1,0 +1,8 @@
+files_root: /home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabProjects/SweRVolf/fusesoc_libraries/swervolf
+gapi: '1.0'
+parameters:
+  args:
+  - -unset=assert_on
+  - -set=reset_vec=0x80000000
+  - -set=fpga_optimize=1
+vlnv: ::veerwolf-veer_eh1_default_config:0.7.5

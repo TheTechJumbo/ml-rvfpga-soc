@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1622485683">
-  <File Type="PA-TCL" Name="rvfpga.tcl"/>
-  <File Type="RDS-PROPCONSTRS" Name="rvfpga_drc_synth.rpt"/>
-  <File Type="REPORTS-TCL" Name="rvfpga_reports.tcl"/>
-  <File Type="RDS-RDS" Name="rvfpga.vds"/>
-  <File Type="RDS-UTIL" Name="rvfpga_utilization_synth.rpt"/>
-  <File Type="RDS-UTIL-PB" Name="rvfpga_utilization_synth.pb"/>
-  <File Type="RDS-DCP" Name="rvfpga.dcp"/>
-  <File Type="VDS-TIMINGSUMMARY" Name="rvfpga_timing_summary_synth.rpt"/>
+<GenRun Id="synth_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1745161197">
   <File Type="VDS-TIMING-PB" Name="rvfpga_timing_summary_synth.pb"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="rvfpga_timing_summary_synth.rpt"/>
+  <File Type="RDS-DCP" Name="rvfpga.dcp"/>
+  <File Type="RDS-UTIL-PB" Name="rvfpga_utilization_synth.pb"/>
+  <File Type="RDS-UTIL" Name="rvfpga_utilization_synth.rpt"/>
+  <File Type="RDS-PROPCONSTRS" Name="rvfpga_drc_synth.rpt"/>
+  <File Type="RDS-RDS" Name="rvfpga.vds"/>
+  <File Type="REPORTS-TCL" Name="rvfpga_reports.tcl"/>
+  <File Type="PA-TCL" Name="rvfpga.tcl"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
     <Filter Type="Srcs"/>
     <File Path="$PSRCDIR/sources_1/imports/src/SweRVolfSoC/SweRVEh1CoreComplex/lib/beh_lib.sv">
@@ -326,10 +326,9 @@
       </FileInfo>
     </File>
     <File Path="$PSRCDIR/sources_1/imports/src/SweRVolfSoC/SweRVEh1CoreComplex/include/pic_map_auto.h">
-      <FileInfo>
+      <FileInfo SFType="SystemC_Header">
         <Attr Name="ImportPath" Val="$PPRDIR/../../LabResources/Lab1/src/SweRVolfSoC/SweRVEh1CoreComplex/include/pic_map_auto.h"/>
         <Attr Name="ImportTime" Val="1613470606"/>
-        <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
@@ -440,19 +439,19 @@
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PSRCDIR/sources_1/imports/src/SweRVolfSoC/Interconnect/AxiInterconnect/pulp-platform.org__axi_0.25.0/include/axi/assign.svh">
+    <File Path="$PSRCDIR/sources_1/imports/src/SweRVolfSoC/Interconnect/AxiInterconnect/pulp-platform.org__axi_0.25.0/include/axi/typedef.svh">
       <FileInfo>
         <Attr Name="IsGlobalInclude" Val="1"/>
-        <Attr Name="ImportPath" Val="$PPRDIR/../../LabResources/Lab1/src/SweRVolfSoC/Interconnect/AxiInterconnect/pulp-platform.org__axi_0.25.0/include/axi/assign.svh"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../LabResources/Lab1/src/SweRVolfSoC/Interconnect/AxiInterconnect/pulp-platform.org__axi_0.25.0/include/axi/typedef.svh"/>
         <Attr Name="ImportTime" Val="1613470606"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PSRCDIR/sources_1/imports/src/SweRVolfSoC/Interconnect/AxiInterconnect/pulp-platform.org__axi_0.25.0/include/axi/typedef.svh">
+    <File Path="$PSRCDIR/sources_1/imports/src/SweRVolfSoC/Interconnect/AxiInterconnect/pulp-platform.org__axi_0.25.0/include/axi/assign.svh">
       <FileInfo>
         <Attr Name="IsGlobalInclude" Val="1"/>
-        <Attr Name="ImportPath" Val="$PPRDIR/../../LabResources/Lab1/src/SweRVolfSoC/Interconnect/AxiInterconnect/pulp-platform.org__axi_0.25.0/include/axi/typedef.svh"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../LabResources/Lab1/src/SweRVolfSoC/Interconnect/AxiInterconnect/pulp-platform.org__axi_0.25.0/include/axi/assign.svh"/>
         <Attr Name="ImportTime" Val="1613470606"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
@@ -2101,10 +2100,8 @@
   </FileSet>
   <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
     <Filter Type="Utils"/>
-    <File Path="$PSRCDIR/utils_1/imports/Lab1/script.tcl">
+    <File Path="$PPRDIR/../../LabResources/Lab1/script.tcl">
       <FileInfo>
-        <Attr Name="ImportPath" Val="$PPRDIR/../../LabResources/Lab1/script.tcl"/>
-        <Attr Name="ImportTime" Val="1619997106"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
         <Attr Name="UsedIn" Val="simulation"/>
@@ -2121,41 +2118,40 @@
     </StratHandle>
     <Step Id="synth_design"/>
   </Strategy>
-  <BlockFileSet Type="BlockSrcs" Name="BD_bidirec_0_2"/>
-  <BlockFileSet Type="BlockSrcs" Name="BD_bidirec_2_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="BD_bidirec_1_1"/>
-  <BlockFileSet Type="BlockSrcs" Name="BD_bidirec_13_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="BD_bidirec_0_4"/>
+  <BlockFileSet Type="BlockSrcs" Name="BD_bidirec_9_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="BD_bidirec_8_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="BD_bidirec_7_1"/>
   <BlockFileSet Type="BlockSrcs" Name="BD_bidirec_15_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="BD_bidirec_2_2"/>
-  <BlockFileSet Type="BlockSrcs" Name="BD_bidirec_3_1"/>
-  <BlockFileSet Type="BlockSrcs" Name="BD_bidirec_4_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="BD_bidirec_1_3"/>
-  <BlockFileSet Type="BlockSrcs" Name="BD_bidirec_0_3"/>
-  <BlockFileSet Type="BlockSrcs" Name="BD_bidirec_1_2"/>
-  <BlockFileSet Type="BlockSrcs" Name="BD_bidirec_3_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="BD_bidirec_2_1"/>
   <BlockFileSet Type="BlockSrcs" Name="BD_bidirec_14_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="BD_bidirec_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="BD_bidirec_13_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="BD_bidirec_12_0"/>
   <BlockFileSet Type="BlockSrcs" Name="BD_bidirec_11_0"/>
   <BlockFileSet Type="BlockSrcs" Name="BD_bidirec_10_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="BD_bidirec_0_1"/>
-  <BlockFileSet Type="BlockSrcs" Name="BD_bidirec_1_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="BD_bidirec_12_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="BD_bidirec_6_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="BD_bidirec_6_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="BD_bidirec_7_0"/>
   <BlockFileSet Type="BlockSrcs" Name="BD_bidirec_5_1"/>
-  <BlockFileSet Type="BlockSrcs" Name="BD_bidirec_0_5"/>
-  <BlockFileSet Type="BlockSrcs" Name="BD_bidirec_5_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="BD_bidirec_6_0"/>
   <BlockFileSet Type="BlockSrcs" Name="BD_bidirec_4_1"/>
   <BlockFileSet Type="BlockSrcs" Name="BD_bidirec_3_2"/>
-  <BlockFileSet Type="BlockSrcs" Name="BD_bidirec_7_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="BD_bidirec_6_1"/>
-  <BlockFileSet Type="BlockSrcs" Name="BD_bidirec_7_1"/>
-  <BlockFileSet Type="BlockSrcs" Name="BD_bidirec_8_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="BD_bidirec_9_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="BD_gpio_wrapper_0_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="BD_swerv_wrapper_verilog_0_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="BD_intcon_wrapper_bd_0_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="BD_syscon_wrapper_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="BD_bidirec_0_5"/>
+  <BlockFileSet Type="BlockSrcs" Name="BD_bidirec_5_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="BD_bidirec_2_2"/>
+  <BlockFileSet Type="BlockSrcs" Name="BD_bidirec_1_3"/>
+  <BlockFileSet Type="BlockSrcs" Name="BD_bidirec_4_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="BD_bidirec_3_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="BD_bidirec_0_4"/>
+  <BlockFileSet Type="BlockSrcs" Name="BD_bidirec_2_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="BD_bidirec_1_2"/>
+  <BlockFileSet Type="BlockSrcs" Name="BD_bidirec_3_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="BD_bidirec_0_3"/>
+  <BlockFileSet Type="BlockSrcs" Name="BD_bidirec_2_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="BD_bidirec_1_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="BD_bidirec_0_2"/>
+  <BlockFileSet Type="BlockSrcs" Name="BD_bidirec_1_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="BD_bidirec_0_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="BD_bidirec_0_0"/>
   <BlockFileSet Type="BlockSrcs" Name="BD_bootrom_wrapper_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="BD_syscon_wrapper_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="BD_gpio_wrapper_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="BD_intcon_wrapper_bd_0_0"/>
 </GenRun>
