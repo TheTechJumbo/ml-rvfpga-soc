@@ -179,7 +179,6 @@ src/wb_intercon_1.4.1/rtl/verilog/wb_cdc.v
 src/wb_intercon_1.4.1/rtl/verilog/wb_arbiter.v
 src/wb_intercon_1.4.1/rtl/verilog/wb_data_resize.v
 src/wb_intercon_1.4.1/rtl/verilog/wb_mux.v
-src/veerwolf_0.7.5/rtl/veer_eh1_wrapper.sv
 src/veerwolf_0.7.5/rtl/dpram64.v
 src/veerwolf_0.7.5/rtl/axi2wb.v
 src/veerwolf_0.7.5/rtl/wb_mem_wrapper.v
@@ -187,6 +186,7 @@ src/veerwolf_0.7.5/rtl/veerwolf_syscon.v
 src/veerwolf_0.7.5/rtl/veerwolf_core.v
 src/veerwolf_0.7.5/rtl/axi_ram.v
 src/veerwolf_0.7.5/tb/veerwolf_core_tb.v
+src/veerwolf_0.7.5/rtl/veer_eh1_wrapper.sv
 src/veerwolf-intercon_0.7.5/axi_intercon.v
 src/veerwolf-wb_intercon_0.7.5/wb_intercon.v
 --top-module veerwolf_core_tb

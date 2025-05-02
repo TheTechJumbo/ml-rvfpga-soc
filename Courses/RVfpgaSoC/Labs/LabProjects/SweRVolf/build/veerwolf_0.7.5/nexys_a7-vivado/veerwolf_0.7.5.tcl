@@ -186,7 +186,6 @@ read_verilog {src/wb_intercon_1.4.1/rtl/verilog/wb_cdc.v}
 read_verilog {src/wb_intercon_1.4.1/rtl/verilog/wb_arbiter.v}
 read_verilog {src/wb_intercon_1.4.1/rtl/verilog/wb_data_resize.v}
 read_verilog {src/wb_intercon_1.4.1/rtl/verilog/wb_mux.v}
-read_verilog -sv {src/veerwolf_0.7.5/rtl/veer_eh1_wrapper.sv}
 read_verilog -sv {src/veerwolf_0.7.5/rtl/dpram64.v}
 read_verilog -sv {src/veerwolf_0.7.5/rtl/axi2wb.v}
 read_verilog -sv {src/veerwolf_0.7.5/rtl/wb_mem_wrapper.v}
@@ -197,6 +196,7 @@ read_xdc {src/veerwolf_0.7.5/data/veerwolf_nexys.xdc}
 read_verilog {src/veerwolf_0.7.5/rtl/clk_gen_nexys.v}
 read_verilog -sv {src/veerwolf_0.7.5/rtl/bscan_tap.sv}
 read_verilog -sv {src/veerwolf_0.7.5/rtl/veerwolf_nexys.v}
+read_verilog -sv {src/veerwolf_0.7.5/rtl/veer_eh1_wrapper.sv}
 read_verilog -sv {src/veerwolf-intercon_0.7.5/axi_intercon.v}
 read_verilog {src/veerwolf-wb_intercon_0.7.5/wb_intercon.v}
 

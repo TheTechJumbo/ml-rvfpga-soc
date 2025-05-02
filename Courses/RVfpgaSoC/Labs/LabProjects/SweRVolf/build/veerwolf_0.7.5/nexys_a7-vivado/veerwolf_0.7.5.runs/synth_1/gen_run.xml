@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1745261772">
+<GenRun Id="synth_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1746226209">
   <File Type="VDS-TIMING-PB" Name="veerwolf_nexys_a7_timing_summary_synth.pb"/>
   <File Type="VDS-TIMINGSUMMARY" Name="veerwolf_nexys_a7_timing_summary_synth.rpt"/>
   <File Type="RDS-DCP" Name="veerwolf_nexys_a7.dcp"/>
@@ -1236,13 +1236,6 @@
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/src/veerwolf_0.7.5/rtl/veer_eh1_wrapper.sv">
-      <FileInfo>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="implementation"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
     <File Path="$PPRDIR/src/veerwolf_0.7.5/rtl/dpram64.v">
       <FileInfo SFType="SVerilog">
         <Attr Name="UsedIn" Val="synthesis"/>
@@ -1294,6 +1287,13 @@
     </File>
     <File Path="$PPRDIR/src/veerwolf_0.7.5/rtl/veerwolf_nexys.v">
       <FileInfo SFType="SVerilog">
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/src/veerwolf_0.7.5/rtl/veer_eh1_wrapper.sv">
+      <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
         <Attr Name="UsedIn" Val="simulation"/>

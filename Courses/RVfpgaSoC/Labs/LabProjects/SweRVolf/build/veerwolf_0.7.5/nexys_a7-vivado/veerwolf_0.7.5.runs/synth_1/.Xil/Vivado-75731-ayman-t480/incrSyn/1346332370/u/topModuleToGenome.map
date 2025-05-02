@@ -1,7 +1,0 @@
-veerwolf_core: veerwolf_core__GC0, veer_wrapper_dmi, 
-veer_wrapper_dmi: mem, veer, 
-mem: mem, 
-veer: veer__GCB0, dec, lsu, exu, 
-dec: dec__GB1, dec__GB0, 
-lsu: lsu__GB1, lsu__GB0, 
-exu: exu, 

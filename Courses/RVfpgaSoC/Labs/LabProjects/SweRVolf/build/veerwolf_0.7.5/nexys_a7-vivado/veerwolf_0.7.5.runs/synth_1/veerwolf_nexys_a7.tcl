@@ -204,7 +204,6 @@ read_verilog -library xil_defaultlib -sv {
   /home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabProjects/SweRVolf/build/veerwolf_0.7.5/nexys_a7-vivado/src/pulp-platform.org__axi_0.25.0/src/axi_to_axi_lite.sv
   /home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabProjects/SweRVolf/build/veerwolf_0.7.5/nexys_a7-vivado/src/pulp-platform.org__axi_0.25.0/src/axi_lite_xbar.sv
   /home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabProjects/SweRVolf/build/veerwolf_0.7.5/nexys_a7-vivado/src/pulp-platform.org__axi_0.25.0/src/axi_xbar.sv
-  /home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabProjects/SweRVolf/build/veerwolf_0.7.5/nexys_a7-vivado/src/veerwolf_0.7.5/rtl/veer_eh1_wrapper.sv
   /home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabProjects/SweRVolf/build/veerwolf_0.7.5/nexys_a7-vivado/src/veerwolf_0.7.5/rtl/dpram64.v
   /home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabProjects/SweRVolf/build/veerwolf_0.7.5/nexys_a7-vivado/src/veerwolf_0.7.5/rtl/axi2wb.v
   /home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabProjects/SweRVolf/build/veerwolf_0.7.5/nexys_a7-vivado/src/veerwolf_0.7.5/rtl/wb_mem_wrapper.v
@@ -212,6 +211,7 @@ read_verilog -library xil_defaultlib -sv {
   /home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabProjects/SweRVolf/build/veerwolf_0.7.5/nexys_a7-vivado/src/veerwolf_0.7.5/rtl/veerwolf_core.v
   /home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabProjects/SweRVolf/build/veerwolf_0.7.5/nexys_a7-vivado/src/veerwolf_0.7.5/rtl/bscan_tap.sv
   /home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabProjects/SweRVolf/build/veerwolf_0.7.5/nexys_a7-vivado/src/veerwolf_0.7.5/rtl/veerwolf_nexys.v
+  /home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabProjects/SweRVolf/build/veerwolf_0.7.5/nexys_a7-vivado/src/veerwolf_0.7.5/rtl/veer_eh1_wrapper.sv
   /home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabProjects/SweRVolf/build/veerwolf_0.7.5/nexys_a7-vivado/src/veerwolf-intercon_0.7.5/axi_intercon.v
 }
 read_verilog -library xil_defaultlib {
