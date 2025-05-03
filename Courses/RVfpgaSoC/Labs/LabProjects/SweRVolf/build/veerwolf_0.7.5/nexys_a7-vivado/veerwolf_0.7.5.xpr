@@ -6,7 +6,11 @@
 <Project Version="7" Minor="44" Path="/home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabProjects/SweRVolf/build/veerwolf_0.7.5/nexys_a7-vivado/veerwolf_0.7.5.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
+<<<<<<< HEAD
     <Option Name="Id" Val="77f95fc525e34583aeca81143dc3a865"/>
+=======
+    <Option Name="Id" Val="88bf0cdea4834100b563682078eabeaa"/>
+>>>>>>> d01ae02ffd50bcd635ff5b834f85491ba18fb57c
     <Option Name="Part" Val="xc7a100tcsg324-1"/>
     <Option Name="CompiledLibDir" Val="$PCACHEDIR/compile_simlib"/>
     <Option Name="CompiledLibDirXSim" Val=""/>

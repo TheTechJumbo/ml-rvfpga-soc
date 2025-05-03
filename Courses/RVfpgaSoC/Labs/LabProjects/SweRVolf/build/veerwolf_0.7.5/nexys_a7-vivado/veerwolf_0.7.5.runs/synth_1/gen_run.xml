@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <GenRun Id="synth_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1746226209">
+=======
+<GenRun Id="synth_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1745333918">
+>>>>>>> d01ae02ffd50bcd635ff5b834f85491ba18fb57c
   <File Type="VDS-TIMING-PB" Name="veerwolf_nexys_a7_timing_summary_synth.pb"/>
   <File Type="VDS-TIMINGSUMMARY" Name="veerwolf_nexys_a7_timing_summary_synth.rpt"/>
   <File Type="RDS-DCP" Name="veerwolf_nexys_a7.dcp"/>

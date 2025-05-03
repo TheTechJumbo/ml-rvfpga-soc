@@ -2,8 +2,13 @@
 # Vivado v2019.2 (64-bit)
 # SW Build 2708876 on Wed Nov  6 21:39:14 MST 2019
 # IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+<<<<<<< HEAD
 # Start of session at: Fri May  2 23:49:59 2025
 # Process ID: 92696
+=======
+# Start of session at: Tue Apr 22 15:58:28 2025
+# Process ID: 96267
+>>>>>>> d01ae02ffd50bcd635ff5b834f85491ba18fb57c
 # Current directory: /home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabProjects/SweRVolf/build/veerwolf_0.7.5/nexys_a7-vivado
 # Command line: vivado -notrace -mode batch -source veerwolf_0.7.5_synth.tcl veerwolf_0.7.5_run.tcl veerwolf_0.7.5.xpr
 # Log file: /home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabProjects/SweRVolf/build/veerwolf_0.7.5/nexys_a7-vivado/vivado.log

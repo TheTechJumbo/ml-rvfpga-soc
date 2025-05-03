@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1746226553">
+=======
+<GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1745334282">
+>>>>>>> d01ae02ffd50bcd635ff5b834f85491ba18fb57c
   <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
   <File Type="BITSTR-SYSDEF" Name="veerwolf_nexys_a7.sysdef"/>
   <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
@@ -1302,6 +1306,16 @@
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
+<<<<<<< HEAD
+=======
+    <File Path="$PPRDIR/src/veerwolf_0.7.5/rtl/veer_eh1_wrapper.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+>>>>>>> d01ae02ffd50bcd635ff5b834f85491ba18fb57c
     <File Path="$PPRDIR/src/veerwolf_0.7.5/rtl/dpram64.v">
       <FileInfo SFType="SVerilog">
         <Attr Name="UsedIn" Val="synthesis"/>
@@ -1358,6 +1372,7 @@
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
+<<<<<<< HEAD
     <File Path="$PPRDIR/src/veerwolf_0.7.5/rtl/veer_eh1_wrapper.sv">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
@@ -1365,6 +1380,8 @@
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
+=======
+>>>>>>> d01ae02ffd50bcd635ff5b834f85491ba18fb57c
     <File Path="$PPRDIR/src/veerwolf-intercon_0.7.5/axi_intercon.v">
       <FileInfo SFType="SVerilog">
         <Attr Name="UsedIn" Val="synthesis"/>
