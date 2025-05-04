@@ -1,6 +1,5 @@
 [manifest]
-path = fusesoc_libraries/swervolf
-file = west.yml
+path = fusesoc_libraries/veerwolf/
 
 [zephyr]
 base = zephyr

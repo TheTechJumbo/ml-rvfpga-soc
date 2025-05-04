@@ -1,11 +1,7 @@
 Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 ------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2019.2 (lin64) Build 2708876 Wed Nov  6 21:39:14 MST 2019
-<<<<<<< HEAD
-| Date         : Fri May  2 23:57:21 2025
-=======
-| Date         : Tue Apr 22 16:06:10 2025
->>>>>>> d01ae02ffd50bcd635ff5b834f85491ba18fb57c
+| Date         : Sun May  4 03:02:57 2025
 | Host         : ayman-t480 running 64-bit Ubuntu 24.10
 | Command      : report_drc -file veerwolf_nexys_a7_drc_opted.rpt -pb veerwolf_nexys_a7_drc_opted.pb -rpx veerwolf_nexys_a7_drc_opted.rpx
 | Design       : veerwolf_nexys_a7

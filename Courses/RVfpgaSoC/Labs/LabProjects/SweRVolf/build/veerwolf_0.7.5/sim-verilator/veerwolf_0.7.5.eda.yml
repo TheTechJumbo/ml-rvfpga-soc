@@ -47,7 +47,7 @@ parameters:
     datatype: file
     paramtype: plusarg
     description: Verilog hex file to use as initial on-chip RAM contents
-    default: hello.vh
+    default: /home/ayman/ml-rvfpga-soc/Courses/RVfpgaSoC/Labs/LabProjects/SweRVolf/zephyr/samples/my_first_app/App.hex
   rom_init_file:
     datatype: file
     paramtype: plusarg
