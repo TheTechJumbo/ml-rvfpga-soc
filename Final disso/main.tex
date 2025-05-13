@@ -1,0 +1,156 @@
+\documentclass[a4paper,12pt]{report}
+
+\usepackage{float}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{newtxtext,newtxmath}
+\usepackage{algorithm}
+\usepackage{algorithmicx}
+\usepackage{algpseudocode}
+\usepackage{booktabs}
+\usepackage[a4paper,margin=1in]{geometry}
+\usepackage{adjustbox}
+\usepackage{courier}
+\usepackage{setspace}
+\usepackage{titlesec}
+\usepackage{titletoc}
+\usepackage{fancyhdr}
+\usepackage{hyperref}
+\onehalfspacing
+
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[R]{\thepage}
+\renewcommand{\headrulewidth}{0pt}
+\setlength{\headheight}{14.49998pt}
+\addtolength{\topmargin}{-2.49998pt}
+
+
+\def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
+    T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
+
+\usepackage[numbers]{natbib}
+\usepackage{natbib}
+\begin{document}
+
+% Custom title page
+\begin{titlepage}
+    \begin{minipage}{0.49\textwidth}
+        \includegraphics[width=6cm]{figures/school_logo.png} % Replace with your actual logo file
+    \end{minipage}
+    \begin{minipage}{0.49\textwidth}
+        \flushleft
+        \textcolor{gray}{\Huge\textbf{School of Electrical and Electronic Engineering}}
+    \end{minipage}
+
+    \vspace{5cm} % Add vertical space to align the title
+
+    \begin{center}
+        % Title
+        \LARGE\textbf{Machine Learning in a RISC-V SoC Implementation on a Xilinx FPGA} \\[1.5cm]
+
+        % Author
+        \Large\textbf{Mohammed Ayman Shaikh} \\[1cm]
+
+        % Submission date
+        \large\textbf{18th April 2025} \\[7cm]
+    \end{center}
+
+    % Supervisor (aligned left)
+    \flushleft
+    \large\textbf{Supervisor: Dr Mohammad Eissa} \\[1cm]
+
+    % Degree information (aligned left)
+    \large\textbf{A dissertation submitted in partial fulfilment of the requirements for the degree of Master of Engineering  (MEng) in Electronic and Communications Engineering
+    }
+
+\end{titlepage}
+
+    
+
+\begin{abstract}
+\doublespacing
+In this dissertation, I explored the design of a RISC-V System-on-Chip (SoC), aided by documentation from Imagination Technologies, based on their VeerEH1 core. This SoC was then implemented on a Xilinx FPGA, after which an Real-Time Operating System (RTOS), Zephyr, was ported to the SoC. The RTOS facilitates Machine Learning (ML) workloads, by carefully controlling timing and resource allocation for simultaneous tasks on the SoC.
+
+This project aimed to determine the feasibility of using RISC-V for ML applications, as a lower-power alternative to the traditional CPU and GPU architectures. As time goes on, the need for lower-power alternatives for ML applications will increase, especially in energy and resource-constrained contexts like in edge computing devices. Although hardware constraints determined that deploying full-scale ML models was beyond the practical scope of this project, this project works as a proof-of-concept to confirm the practicality of using RISC-V for ML, as well as using FPGAs as a platform for SoC development and testing.
+
+\end{abstract}
+
+
+\section*{Individual Contributions}
+%addcontentsline{toc}{section}{Individual Contributions}
+This dissertation is the result of my individual work. All content, analysis, and implementations presented herein are my own unless otherwise stated and appropriately referenced.
+
+\section*{Acknowledgments}
+%\addcontentsline{toc}{section}{Acknowledgments}
+I would like to express my gratitude to Supervisor for their guidance and support throughout this project. I also thank the Department of Electrical and Electronic Engineering at the University of Sheffield for providing the necessary resources and infrastructure to conduct this research.
+
+\tableofcontents
+\clearpage
+
+\listoffigures
+\clearpage
+
+\listoftables
+\clearpage
+
+
+
+\chapter{Background and Motivation}
+
+Traditional CPU and GPU architectures are struggling to match the ever-increasing demand for more energy-efficient machine learning (ML) applications, with CPUs allowing for flexibility, but limited parallel-processing capabilities at scale. GPUs are optimised for parallel-processing, but are very power-consumptive. This is especially true in edge computing, where computers are closer to the source of the information, and elements like size, power consumption and data latency are subject to constraints, meaning they must be precisely managed. The reconfigurability and flexibility of Field-Programmable Gate Arrays (FPGAs), as well as their lower-power nature makes them an ideal platform for developing and experimenting with novel architectures, geared toward ML applications.
+
+The novel architecture selected for use in this project was RISC-V, which is an Instruction Set Architecture (ISA) based on Reduced Instruction Set Computer (RISC) principles. The primary reason RISC-V was chosen is its open-source nature, allowing me to use and modify the ISA at no cost, as well as being free from any restrictions associated with licensing. This contrasts with more well-established, but proprietary ISAs like x86 and ARM, which require expensive licensing agreements and limit modification, making them simply unfeasible for the use case of this project. This is one reason why RISC-V is increasingly being adopted for use in academic contexts, with its more open philosophy allowing for more freedom to explore and experiment, helping develop a deeper understanding of computer architecture.
+
+This freedom to modify RISC-V allows processor design to be scaled and customised to suit a wide range of applications, from embedded systems to tasks requiring high-performance computation. Its modular nature allows developers to tailor functionality to 
+specific purposes, by including or excluding specific features, enabled by both the base ISA and additional instructions sets. Including only the necessary instruction sets allows resource allocation to be as efficient as possible
+
+\chapter{Literature Review}
+
+RISC-V is a 
+\section{Section}
+
+\begin{table}[htbp]
+    \centering
+    \caption{Caption}
+    \begin{tabular}{|c|c|}
+    \hline
+    \textbf{Subject1} & \textbf{Subject2} \\ \hline
+    \textbf{Content} &  Content \\ \hline
+    \hline 
+    \end{tabular}
+\end{table}
+
+\chapter{Methodology \& Shizzle}
+\section{Section}
+
+
+
+\subsubsection{Subsectione}
+
+
+\section{Section}
+
+
+
+\chapter{Conclusions}
+\section{Results}
+\section{Evaluation}
+\section{Future Work}
+
+\section{Economic, Legal, Social, Ethical and Environmental }
+In this dissertation, energy and resource-efficient ML is explored, utilising the RISC-V ISA to implement an SoC on an FPGA. Economically, using RISC-V, which is an open source ISA, allows tailored solutions to be created at minimal cost, by avoiding expensive licensing costs. The autonomy over design choices afforded by open-source ISAs, contrasting with proprietary ISAs like ARM and x86, also allows for unhindered customisation and optimisation, which is essential in the development of energy and resource-efficient edge computing solutions. 
+
+Legally, RISC-V being used means this project benefits from the principles of open-source software, which allows it to be used for free and modified without restrictions. Socially and ethically, this project promotes equitable access to machine learning, by basing it on an open-source ISA. Using proprietary ISAs may have stifled development and widespread technological proliferation by restricting access to only those who would be able to afford the expensive licensing costs. Environmentally, this project focuses on ML in low-power embedded devices, as opposed to using the conventional power-consumptive CPU or GPU architectures, which advances ML towards a more environmentally-friendly future.
+
+
+
+\nocite{*}
+
+\bibliographystyle{IEEEtran}
+\bibliography{references}
+
+\end{document}|
